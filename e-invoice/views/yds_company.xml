@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="inherited_res_company_view_form" model="ir.ui.view">
+    <field name="name">inherited.model.form.inherit.test</field>
+    <field name="model">res.company</field>
+    <field name="inherit_id" ref="base.view_company_form"/>
+    <field name="arch" type="xml">
+      <!-- find field description and add the field
+             new_field after it -->
+      <xpath expr="/form/*" position="before">
+        <header>
+          <field name="einvoice_login_status" widget="statusbar" statusbar_visible="logged_out,logged_in"/>
+        </header>
+      </xpath>
+      <xpath expr="//notebook" position="inside">
+        <page string="Tax APIs" name="tax_apis">
+          <group>
+            <div>
+            <h4 style="font-weight: bold;">E-invoice Login Related fields</h4>
+              <group>
+                <field name="environment" widget="radio" options="{'horizontal': true}"/>
+                <field name="client_id" placeholder="client id..."/>
+                <field name="client_secret" placeholder="client secret..." password="True"/>
+                <field name="activity_code_ids" widget = "many2many_tags"/>
+                <field name="api_base_url" invisible="1"/>
+                <field name="id_srv_base_url" invisible="1"/>
+              </group>
+              <button name="login_request" string="login Request" type="object" />
+            </div>
+          </group>
+          <h4  style="font-weight: bold;">Signature App Related fields</h4>
+          <group >
+              <field name="signature_ip" string="Application IP address" placeholder="0.0.0.0"/>
+              <field name="signature_port" string="Application Port" placeholder="9888"/>
+              <field name="token_subject_name" string="Certificate Subject Name" placeholder="YDS"/>
+          </group>
+          <button name="test_signature_connection" string="Establish Connection To App" type="object" />
+          <field name="sig_connect" string="Connected" />
+        </page>
+      </xpath>
+      <xpath expr="//field[@name='partner_id']" position="before">
+        <field name="issuer_type" widget="radio" options="{'horizontal': true}"/>
+        <field name="activity_code_ids" widget = "many2many_tags"/>
+        
+      </xpath>
+      <xpath expr="//div[@class='o_address_format']" position="inside">
+        <field name="branch_id" placeholder="Branch ID..." class="o_address_street" />
+        <!-- <field name="governate" placeholder="Governate..." class="o_address_street" /> -->
+        <field name="building_number" placeholder="Building Number..." class="o_address_street" />
+        <field name="floor" placeholder="Floor..." class="o_address_street" />
+        <field name="room" placeholder="Room..." class="o_address_street" />
+        <field name="landmark" placeholder="Land Mark..." class="o_address_street" />
+        <field name="additional_information" placeholder="Additional Information..." class="o_address_street" />
+      </xpath>
+      <xpath expr="//field[@name='vat']" position="replace">
+        <field name="vat" placeholder ="Registration number. ex:10201020102 " />
+      </xpath>
+    </field>
+  </record>
+</odoo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="inherited_res_company_branch_view_form" model="ir.ui.view">
+        <field name="name">inherited.model.form.inherit.branch</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Branches" name="branches">
+                    <field name="branch_ids" string="" >
+                        <tree string="Branches" editable="bottom" widget="section_and_note_one2many">
+                            <field name="branch_id" required="1"/>
+                            <field name="country_id" placeholder="Country" class="o_address_country" options="{&quot;no_open&quot;: True, &quot;no_create&quot;: True}" required="1"/>
+                            <field name="state_id" class="o_address_state" placeholder="State" options="{&quot;no_open&quot;: True}" on_change="1" can_create="true" can_write="true" modifiers="{}" required="1"/>
+                            <field name="regionCity" required="1"/>
+                            <field name="street" required="1"/>
+                            <field name="building_number" required="1"/>
+
+                            <field name="postalCode" string="Postal Code" optional="1"/>
+                            <field name="floor" optional="1"/>
+                            <field name="room" optional="1"/>
+                            <field name="landmark" optional="1"/>
+                            <field name="additional_information" optional="1"/>
+    <!-- postalCode = fields.Char(string = "Postal Code")
+    floor = fields.Char(string="floor")
+    room = fields.Char(string="room")
+    landmark = fields.Char(string="landmark")
+    additional_information = fields.Char(string="additionalInformation") -->
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

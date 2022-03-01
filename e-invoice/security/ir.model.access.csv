@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+account_tax_activity_user,account_tax_activity_code user,model_account_tax_activity_code,base.group_user,1,1,1,1
+access_einvoice_submit_document_rejected_details_user,e-invoice.einvoice.submit.document.rejected.details,model_einvoice_submit_document_rejected_details,base.group_user,1,1,1,1
+access_yds_einvoice_invalid_details_wizard_user,e-invoice.yds.einvoice.invalid.details.wizard,model_yds_einvoice_invalid_details_wizard,base.group_user,1,1,1,1
+access_yds_einvoice_cancel_wizard_user,e-invoice.yds.einvoice.cancel.wizard,model_yds_einvoice_cancel_wizard,base.group_user,1,1,1,1
+access_issuer_branch_user,e-invoice.issuer.branch,model_issuer_branch,base.group_user,1,1,1,1

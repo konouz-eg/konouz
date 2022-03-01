@@ -1,0 +1,22 @@
+.ribbon-top-right-einvoice-status {
+    top: 15px;
+    left: 40%;
+    width:180px;
+    height: 60px
+   
+}
+
+.ribbon-top-right-einvoice-status span {
+    top: 0px;
+    /* text-align: center; */
+    width: 100%;
+    transform: translate(10px, 10px);
+}
+
+.red-color{
+    color: red;
+   }
+
+.table-padding{
+padding:10px;
+}
