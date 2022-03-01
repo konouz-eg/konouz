@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+  <record id="inherited_account_move_line_view_form" model="ir.ui.view">
+    <field name="name">inherited.model.form.inherit.test</field>
+    <field name = "model">account.move</field>
+    <field name = "inherit_id" ref = "account.view_move_form" />
+    <field name = "arch" type = "xml">
+      <xpath expr="//button[@name='action_register_payment']" position="after">
+        <field name="is_einvoice" invisible="1" />
+        <field name="ui_sync_invoice_visiblity" invisible="1" />
+        <button name="sync_einvoice" id="yds_send_e-invoice_btn" type="object" class="oe_highlight session-button" attrs="{'invisible': [('ui_sync_invoice_visiblity', '!=', True)]}" string="Sync E-invoice" />
+      </xpath>
+      <xpath expr="//button[@name='button_draft']" position="replace">
+        <field name="ui_reset_draft_visiblity" invisible="1" />
+        <button name="button_draft" string="Reset to Draft" type="object" groups="account.group_account_invoice" attrs="{'invisible' : [('ui_reset_draft_visiblity', '=', False)]}" data-hotkey="q"/>
+      </xpath>
+
+      <xpath expr="//field[@name='partner_id']" position="after">
+        <field name="company_branch_ids" invisible="1" />
+        <field name="branch_id" attrs="{'invisible': ['|',('is_einvoice', '=', False),'&amp;',('move_type', 'not in', ['out_invoice']),('move_type', 'not in', ['out_refund'])]}"/>
+      </xpath>
+      <!-- 
+        <xpath expr="//field[@name='invoice_payment_term_id']" position="replace">
+          <field name="days_expiration" />
+        </xpath> -->
+      <xpath expr = "//div[@name='journal_div']" position ="after">
+        <!-- <field name="days_expiration" string="Days Left" /> -->
+        <field name="company_activity_codes" invisible="1"/>
+        <field name="is_einvoice" invisible="1" />
+        <field name="days_expiration" string="E-invoice Expires In(Days)" attrs="{'invisible': ['|','|','|',('is_einvoice', '=', False),('einvoice_status', 'in', ['Valid']),('einvoice_status', 'in', ['Cancelled']),'&amp;',('move_type', 'not in', ['out_invoice']),('move_type', 'not in', ['out_refund'])]}" />
+        <!-- <field name="move_activity_code" attrs="{'invisible': [('is_einvoice', '=', False)],'readonly':[('state','!=','draft')]}" /> -->
+        <field name="move_partner_activity_code" string="Activity Code" attrs="{'invisible': ['|',('is_einvoice', '=', False),'&amp;',('move_type', 'not in', ['out_invoice']),('move_type', 'not in', ['out_refund'])]}" />
+        <field name="document_type_version" attrs="{'invisible': ['|',('is_einvoice', '=', False),'&amp;',('move_type', 'not in', ['out_invoice']),('move_type', 'not in', ['out_refund'])],'readonly':[('state','!=','draft')]}" />
+      </xpath>
+
+      <xpath expr = "//field[@name='invoice_line_ids']/tree/field[@name='quantity']" position ="before">
+        <!-- <field name = "item_type" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/>
+          <field name = "item_code" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/>
+          <field name = "internal_code" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/> -->
+        <!-- <field name = "unit_type" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/> -->
+        <!-- <field name = "items_discount" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/> -->
+      </xpath>
+
+      <xpath expr = "//field[@name='invoice_line_ids']/tree/field[@name='price_subtotal']" position ="before">
+        <field name="currency_id" groups="base.group_multi_currency" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/>
+        <field name = "value_difference" groups="account.group_show_line_subtotals_tax_excluded" invisible="1"/>
+        <field name = "total_taxable_fees" groups="account.group_show_line_subtotals_tax_excluded" invisible="1"/>
+        <field name = "sum_taxable_items" groups="account.group_show_line_subtotals_tax_excluded" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/>
+        <field name = "sales_total" groups="account.group_show_line_subtotals_tax_excluded" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/>
+        <field name = "total" groups="account.group_show_line_subtotals_tax_excluded" attrs="{'column_invisible': [('parent.is_einvoice', '=', False)]}"/>
+      </xpath>
+
+      <xpath expr = "//field[@name='amount_total']" position ="before">
+        <field name="is_einvoice" invisible="1" />
+        <field name="total_sales_amount" string="Total Sales Amount" colspan="2" attrs="{'invisible': [('is_einvoice', '=', False)]}"/>
+        <field name="total_discount_amount" string="Total Discount Amount" />
+      </xpath>
+
+      <xpath expr="//widget[@name='web_ribbon']" position="after">
+        <field name="is_einvoice" invisible="1" />
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-danger" title="E-Submittion Rejected" attrs="{'invisible':  ['|',('einvoice_document_submission_status', 'not in', ['rejected']),('is_einvoice', '=', False)]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-success" title="E-Submittion Accepted" attrs="{'invisible':  ['|',('einvoice_document_submission_status', 'not in', ['accepted']),('is_einvoice', '=', False)]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-success" title="E-Valid" attrs="{'invisible':  ['|',('einvoice_status', 'not in', ['Valid']),('is_einvoice', '=', False)]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-warning" title="E-Invalid" attrs="{'invisible':  ['|',('einvoice_status', 'not in', ['Invalid']),('is_einvoice', '=', False)]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-danger" title="E-Submittion Expired" attrs="{'invisible':  ['|',('is_einvoice', '=', False),('einvoice_document_submission_status', 'not in', ['expired'])]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-info" title="E-Submitted" attrs="{'invisible':  ['|',('einvoice_status', 'not in', ['Submitted']),('is_einvoice', '=', False)]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-danger" title="E-Rejected" attrs="{'invisible':  ['|',('einvoice_status', 'not in', ['Rejected']),('is_einvoice', '=', False)]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-danger" title="E-Cancelled" attrs="{'invisible':  ['|',('einvoice_status', 'not in', ['Cancelled']),('is_einvoice', '=', False)]}"/>
+        <widget name="web_ribbon" class="ribbon-top-right-einvoice-status" bg_color="bg-warning" title="E-Valid -> Cancel" attrs="{'invisible':  ['|',('einvoice_status', 'not in', ['Cancelling']),('is_einvoice', '=', False)]}"/>
+        <field name="einvoice_document_submission_status" invisible="1"/>
+      </xpath>
+
+      <xpath expr = "//page[@id='other_tab_entry']" position ="after">
+        <field name="is_einvoice" invisible="1" />
+        <page id="einvoice_details_id" string="E-invoice Details" attrs="{'invisible': ['|',('is_einvoice', '=', False),'&amp;',('move_type', 'not in', ['out_invoice']),('move_type', 'not in', ['out_refund'])]}">
+          <!-- <field name="einvoice_document_submission_status" /> -->
+          <group colspan="2" attrs="{'invisible':  [('einvoice_document_submission_status', 'not in', ['accepted'])]}">
+            <field name="einvoice_internalId" string="E-invoice ID" readonly="1" />
+            <field name="einvoice_document_uuid" string="E-invoice UUID" readonly="1" />
+            <field name="einvoice_public_url" string="E-invoice URL" widget="url" readonly="1"/>
+            <field name="einvoice_date" string="E-invoice Date" readonly="1"/>
+            <field name="time_to_cancel" attrs="{'invisible':  ['|','|',('einvoice_status', 'in', ['Cancelled']),('is_cancelled','=',True),('einvoice_status', 'in', ['Invalid'])]}"/>
+            <field name="can_cancel" invisible="1"/>
+            <field name="is_cancelled" invisible="1"/>
+
+            <field name="apply_cancellation_date" string="To Be Cancelled on" attrs="{'invisible':  ['|',('einvoice_status', 'in', ['Invalid']),'&amp;',('einvoice_status','in', ['Valid']),('is_cancelled','=',False)]}"/>
+            <field name="einvoice_status" string="E-invoice Status" readonly="1"/>
+            <field name="file_name" invisible="1"/>
+            <field name="file" filename="file_name" attrs="{'invisible': ['|',('einvoice_status', 'in', ['Submitted']),('einvoice_status', 'in', ['Invalid'])]}"/>
+          </group>
+          <button attrs="{'invisible':  [('einvoice_document_submission_status', 'not in', ['accepted'])]}" name="get_document_details" string="Update E-invoice Status" type="object" />
+          <button attrs="{'invisible': [('can_cancel','=',False),'|',('is_cancelled','=',True),'|','|',('einvoice_document_submission_status', 'in', ['not_submitted']),('einvoice_document_submission_status', 'in', ['expired']),('einvoice_status','in',['Invalid']),]}" name="cancel_einvoice" string="Cancel E-invoice Document" type="object" />
+          <!-- <button attrs="{'invisible': [('einvoice_status', 'not in', ['Valid'])]}" name="download_document" string="Download E-invoice Document" type="object" /> -->
+          <group colspan="2" attrs="{'invisible':  [('einvoice_document_submission_status', 'not in', ['rejected'])]}">
+            <field name="einvoice_submit_rejected_details_ids" readonly="1">
+              <tree>
+                <field name="message" readonly="1"/>
+                <field name="property_path" readonly="1"/>
+                <field name="target" readonly="1"/>
+              </tree>
+            </field>
+          </group>
+        </page>
+      </xpath>
+
+
+      <!-- <widget name="web_ribbon" title="Valid" attrs="{'invisible':  ('einvoice_status', '!=', 'valid')}"/> -->
+    </field>
+
+  </record>
+
+  <!-- <record id="einvoice_list_inherit_account_move" model="ir.ui.view">
+    <field name="name">account.move.view.list.inherit</field>
+    <field name="model">account.move</field>
+    <field name="inherit_id" ref="account.view_out_invoice_tree"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='payment_state']" position="before">
+        <field name="is_einvoice" invisible="1" />
+        <field name="days_expiration" string="E-invoice Expires in" widget="badge" decoration-danger="days_expiration &lt; 1 " decoration-warning="days_expiration &lt; 3" decoration-success="days_expiration &lt; 8" attrs="{'invisible': ['|','|',('is_einvoice', '=', False),('einvoice_status' ,'in' , ['Valid']),('state','in',['cancel'])]}"/>
+        <field name="einvoice_document_submission_status" widget="badge" decoration-danger="einvoice_document_submission_status == 'rejected'" decoration-warning="einvoice_document_submission_status =='not_submitted'" decoration-success="einvoice_document_submission_status =='accepted'" attrs="{'invisible': [('is_einvoice', '=', False)]}"/>
+        <field name="einvoice_status" widget="badge" decoration-danger="einvoice_status == 'Rejected'" decoration-warning="einvoice_status =='Invalid'" decoration-success="einvoice_status =='Valid'" attrs="{'invisible': [('is_einvoice', '=', False)]}"/>
+      </xpath>
+
+
+    </field>
+  </record> -->
+  <record id="einvoice_submit_documents" model="ir.actions.server">
+    <field name="name">E-invoice Submit Documents</field>
+    <field name="state">code</field>
+    <field name="type">ir.actions.server</field>
+    <field name="model_id" ref="model_account_move"/>
+    <field name="binding_model_id" ref="model_account_move"/>
+    <field name="binding_view_types">list</field>
+    <field name="code">
+                if records:
+                  action = records.sync_einvoice()
+    </field>
+
+  </record>
+  <record id="einvoice_update_documents" model="ir.actions.server">
+    <field name="name">E-invoice Update Documents Status</field>
+    <field name="state">code</field>
+    <field name="type">ir.actions.server</field>
+    <field name="model_id" ref="model_account_move"/>
+    <field name="binding_model_id" ref="model_account_move"/>
+    <field name="binding_view_types">list</field>
+    <field name="code">
+                if records:
+                    action = records.get_document_details()
+    </field>
+
+  </record>
+
+  <record id="einvoice_list_inherit_account_move_credit_note" model="ir.ui.view">
+    <field name="name">account.move.view.list.inherit</field>
+    <field name="model">account.move</field>
+    <field name="inherit_id" ref="account.view_invoice_tree"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='payment_state']" position="before">
+        <field name="is_einvoice" invisible="1" />
+        <field name="days_expiration" string="E-invoice Expires in" widget="badge" decoration-danger="days_expiration &lt; 1 " decoration-warning="days_expiration &lt; 3" decoration-success="days_expiration &lt; 8" attrs="{'invisible': ['|',('is_einvoice', '=', False),('einvoice_status' ,'in' , ['Valid'])]}"/>
+        <field name="einvoice_document_submission_status" widget="badge" decoration-danger="einvoice_document_submission_status == 'rejected'" decoration-warning="einvoice_document_submission_status =='not_submitted'" decoration-success="einvoice_document_submission_status =='accepted'" attrs="{'invisible': [('is_einvoice', '=', False)]}"/>
+        <field name="einvoice_status" widget="badge" decoration-danger="einvoice_status == 'Rejected'" decoration-warning="einvoice_status =='Invalid'" decoration-success="einvoice_status =='Valid'" attrs="{'invisible': [('is_einvoice', '=', False)]}"/>
+      </xpath>
+
+
+    </field>
+  </record>
+
+</odoo> 

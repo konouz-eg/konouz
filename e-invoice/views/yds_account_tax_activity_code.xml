@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record model="ir.ui.view" id="AccountActivity_tree_view">
+    <field name="name">AccountTaxActivity.tree</field>
+    <field name="model">account.tax.activity.code</field>
+    <field name="arch" type="xml">
+      <tree string="TaxActivityCode Tree">
+        <field name="name"/>
+        <field name="arabic_name"/>
+        <field name="code"/>
+      </tree>
+    </field>
+  </record>
+  <record model="ir.actions.act_window" id="AccountTaxActivity_list_action">
+    <field name="name">AccountTaxActivity</field>
+    <field name="res_model">account.tax.activity.code</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  <menuitem id="AccountTaxActivity_menu" name="AccountTaxActivity" parent="account.account_invoicing_menu" action="AccountTaxActivity_list_action"/>
+</odoo> 

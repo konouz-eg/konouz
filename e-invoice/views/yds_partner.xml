@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="inherited_res_partner_receiver_view_form" model="ir.ui.view">
+        <field name="name">inherited.model.form.inherit.partner</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+         <xpath expr="//field[@name='function']" position="before">
+                <field name="company_activity_codes" widget="many2many_tags" invisible="1"/>
+                <field name="parent_partner_activity_code" invisible="1"/>
+                <field name="partner_activity_code" string="Partner Activity Code"/>
+
+            </xpath>
+            <xpath expr="//div[@class='o_address_format']" position="inside">
+                <field name="building_number" placeholder="Building Number..." class="o_address_street" />
+                <field name="floor" placeholder="Floor..." class="o_address_street" />
+                <field name="room" placeholder="Room..." class="o_address_street" />
+                <field name="landmark" placeholder="Land Mark..." class="o_address_street" />
+                <field name="additional_information" placeholder="Additional Information..." class="o_address_street" />
+            </xpath>
+            <xpath expr="//field[@name='vat']" position="replace">
+                <field name="vat" string="National ID" attrs="{'invisible': [('company_type','!=', 'person')]}"/>
+                <field name="vat" string="Tax Code" attrs="{'invisible': [('company_type','!=', 'company')]}"/>
+                <field name="vat" string="Passport ID" attrs="{'invisible': [('company_type','!=', 'F')]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

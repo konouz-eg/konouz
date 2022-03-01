@@ -1,0 +1,2180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<data noupdate="1">
+    <record id="0111" model="account.tax.activity.code">
+      <field name="code">0111</field>
+      <field name="name">Cultivation of grains and crops (except for rice), legumes and oilseeds</field>
+      <field name="arabic_name">زراعة الحبوب والمحاصيل ( فيما عدا الارز ) والبقوليات والحبوب الزيتية</field>
+    </record>
+    <record id="0112" model="account.tax.activity.code">
+      <field name="code">0112</field>
+      <field name="name">Cultivation of rice</field>
+      <field name="arabic_name">زراعة الارز</field>
+    </record>
+    <record id="0113" model="account.tax.activity.code">
+      <field name="code">0113</field>
+      <field name="name">Growing vegetables, melons, roots and tubers</field>
+      <field name="arabic_name">زراعة الخضر ؤالبطيخ والجذور والدرنات</field>
+    </record>
+    <record id="0114" model="account.tax.activity.code">
+      <field name="code">0114</field>
+      <field name="name">Cultivation of sugar cane</field>
+      <field name="arabic_name">زراعة قصب السكر</field>
+    </record>
+    <record id="0115" model="account.tax.activity.code">
+      <field name="code">0115</field>
+      <field name="name">Tobacco cultivation</field>
+      <field name="arabic_name">زراعة التبغ</field>
+    </record>
+    <record id="0116" model="account.tax.activity.code">
+      <field name="code">0116</field>
+      <field name="name">Growing fiber crops</field>
+      <field name="arabic_name">زراعة المحاصيل ذات الالياف</field>
+    </record>
+    <record id="0119" model="account.tax.activity.code">
+      <field name="code">0119</field>
+      <field name="name">Cultivation of other non-perennial crops</field>
+      <field name="arabic_name">زراعة المحاصيل غير المعمرة الاخرى</field>
+    </record>
+    <record id="0121" model="account.tax.activity.code">
+      <field name="code">0121</field>
+      <field name="name">the cultivation of grapevines.</field>
+      <field name="arabic_name">زراعة الكروم</field>
+    </record>
+    <record id="0122" model="account.tax.activity.code">
+      <field name="code">0122</field>
+      <field name="name">Growing tropical and subtropical fruits</field>
+      <field name="arabic_name">زراعة الفواكه الاستوائية وشبه الاستوائية</field>
+    </record>
+    <record id="0123" model="account.tax.activity.code">
+      <field name="code">0123</field>
+      <field name="name">Cultivation of citrus fruits</field>
+      <field name="arabic_name">زراعة الموالح</field>
+    </record>
+    <record id="0124" model="account.tax.activity.code">
+      <field name="code">0124</field>
+      <field name="name">Cultivation of fruit with Date kernel and from palm trees</field>
+      <field name="arabic_name">زراعة الفواكة ذات النواة والناتجة عن انواع النخيل</field>
+    </record>
+    <record id="0125" model="account.tax.activity.code">
+      <field name="code">0125</field>
+      <field name="name">Plant fruit trees and shrubs and other nuts</field>
+      <field name="arabic_name">زراعة أشجار وشجيرات الفواكهة والمكسرات الاخرى</field>
+    </record>
+    <record id="0126" model="account.tax.activity.code">
+      <field name="code">0126</field>
+      <field name="name">Growing oil fruits</field>
+      <field name="arabic_name">زراعة الفواكهة الزيتية</field>
+    </record>
+    <record id="0127" model="account.tax.activity.code">
+      <field name="code">0127</field>
+      <field name="name">Cultivation of the crops from which drinks are extracted</field>
+      <field name="arabic_name">زراعة المحاصيل التى تستخرج منها المشروبات</field>
+    </record>
+    <record id="0128" model="account.tax.activity.code">
+      <field name="code">0128</field>
+      <field name="name">Cultivation of spice crops, aromatics, medicine and pharmaceutical drugs</field>
+      <field name="arabic_name">زراعة محاصيل التوابل والعطريات والادوية والعقاقير الصيدلانية</field>
+    </record>
+    <record id="0129" model="account.tax.activity.code">
+      <field name="code">0129</field>
+      <field name="name">Cultivation of other perennial crops</field>
+      <field name="arabic_name">زراعة المحاصيل المعمرة الاخرى</field>
+    </record>
+    <record id="0130" model="account.tax.activity.code">
+      <field name="code">0130</field>
+      <field name="name">Crop breeding</field>
+      <field name="arabic_name">تكاثر المحاصيل</field>
+    </record>
+    <record id="0141" model="account.tax.activity.code">
+      <field name="code">0141</field>
+      <field name="name">Breeding of cattle and buffalo</field>
+      <field name="arabic_name">تربية الماشية والجواميس</field>
+    </record>
+    <record id="0142" model="account.tax.activity.code">
+      <field name="code">0142</field>
+      <field name="name">Breeding of horses and mare</field>
+      <field name="arabic_name">تربية الخيول و الفرس</field>
+    </record>
+    <record id="0143" model="account.tax.activity.code">
+      <field name="code">0143</field>
+      <field name="name">Breeding of camels</field>
+      <field name="arabic_name">تربية الجمال والهجن</field>
+    </record>
+    <record id="0144" model="account.tax.activity.code">
+      <field name="code">0144</field>
+      <field name="name">Breeding sheep and goats</field>
+      <field name="arabic_name">تربية الخراف والماعز</field>
+    </record>
+    <record id="0145" model="account.tax.activity.code">
+      <field name="code">0145</field>
+      <field name="name">Breeding of Pig</field>
+      <field name="arabic_name">تربية الحنازير</field>
+    </record>
+    <record id="0146" model="account.tax.activity.code">
+      <field name="code">0146</field>
+      <field name="name">Poultry farming</field>
+      <field name="arabic_name">تربية الدواجن</field>
+    </record>
+    <record id="0149" model="account.tax.activity.code">
+      <field name="code">0149</field>
+      <field name="name">Breeding other animals</field>
+      <field name="arabic_name">تربية الحيوانات الاخرى</field>
+    </record>
+    <record id="0150" model="account.tax.activity.code">
+      <field name="code">0150</field>
+      <field name="name">Mixed education</field>
+      <field name="arabic_name">التربية المختلطة</field>
+    </record>
+    <record id="0161" model="account.tax.activity.code">
+      <field name="code">0161</field>
+      <field name="name">Support activities for crop production</field>
+      <field name="arabic_name">الانشطة الداعمة لانتاج المحاصيل</field>
+    </record>
+    <record id="0162" model="account.tax.activity.code">
+      <field name="code">0162</field>
+      <field name="name">Activities in support of animal production</field>
+      <field name="arabic_name">الانشطة الداعمة لانتاج الحيوانات</field>
+    </record>
+    <record id="0163" model="account.tax.activity.code">
+      <field name="code">0163</field>
+      <field name="name">Post-harvest activities</field>
+      <field name="arabic_name">الانشطة اللاحقة لحصاد المحاصيل</field>
+    </record>
+    <record id="0164" model="account.tax.activity.code">
+      <field name="code">0164</field>
+      <field name="name">Preparing grains for reproduction</field>
+      <field name="arabic_name">تجهيز الحبوب للتكاثر</field>
+    </record>
+    <record id="0170" model="account.tax.activity.code">
+      <field name="code">0170</field>
+      <field name="name">Hunting, erection, and related service activities</field>
+      <field name="arabic_name">الصيد ونصب الاشراك وانشطة الخدمات ذات الصلة</field>
+    </record>
+    <record id="0210" model="account.tax.activity.code">
+      <field name="code">0210</field>
+      <field name="name">Forest care and forest-related activities</field>
+      <field name="arabic_name">رعاية الغابات والانشطة المتصلة بالغابات</field>
+    </record>
+    <record id="0220" model="account.tax.activity.code">
+      <field name="code">0220</field>
+      <field name="name">Wood cutting</field>
+      <field name="arabic_name">قطع الاخشاب</field>
+    </record>
+    <record id="0230" model="account.tax.activity.code">
+      <field name="code">0230</field>
+      <field name="name">Assembling non-wood forest products</field>
+      <field name="arabic_name">تجميع المنتجات غير الخشبية بالغابات</field>
+    </record>
+    <record id="0240" model="account.tax.activity.code">
+      <field name="code">0240</field>
+      <field name="name">Forest support services</field>
+      <field name="arabic_name">الخدمات الداعمة للغابات</field>
+    </record>
+    <record id="0311" model="account.tax.activity.code">
+      <field name="code">0311</field>
+      <field name="name">Fishing</field>
+      <field name="arabic_name">الصيد البحرى</field>
+    </record>
+    <record id="0312" model="account.tax.activity.code">
+      <field name="code">0312</field>
+      <field name="name">River fishing</field>
+      <field name="arabic_name">الصيد النهرى</field>
+    </record>
+    <record id="0321" model="account.tax.activity.code">
+      <field name="code">0321</field>
+      <field name="name">Marine farms</field>
+      <field name="arabic_name">المزارع البحرية</field>
+    </record>
+    <record id="0322" model="account.tax.activity.code">
+      <field name="code">0322</field>
+      <field name="name">River farms</field>
+      <field name="arabic_name">المزارع النهرية</field>
+    </record>
+    <record id="0411" model="account.tax.activity.code">
+      <field name="code">0411</field>
+      <field name="name">Earn a job</field>
+      <field name="arabic_name">كسب عمل</field>
+    </record>
+    <record id="0412" model="account.tax.activity.code">
+      <field name="code">0412</field>
+      <field name="name">Income from government agencies salaries</field>
+      <field name="arabic_name">ايرادات من مرتبات جهات حكوميه</field>
+    </record>
+    <record id="0413" model="account.tax.activity.code">
+      <field name="code">0413</field>
+      <field name="name">Income and salaries from the public business sector</field>
+      <field name="arabic_name">إيرادات ومرتبات من قطاع الاعمال العام</field>
+    </record>
+    <record id="0414" model="account.tax.activity.code">
+      <field name="code">0414</field>
+      <field name="name">Income and salaries from the private sector</field>
+      <field name="arabic_name">ايرادات ومرتبات من قطاع خاص</field>
+    </record>
+    <record id="0415" model="account.tax.activity.code">
+      <field name="code">0415</field>
+      <field name="name">Income and salary from non-subject entities</field>
+      <field name="arabic_name">ايرادات ومرتبات من جهات غير خاضعه</field>
+    </record>
+    <record id="0416" model="account.tax.activity.code">
+      <field name="code">0416</field>
+      <field name="name">Inspection and sting</field>
+      <field name="arabic_name">تفتيش ودمغة</field>
+    </record>
+    <record id="0441" model="account.tax.activity.code">
+      <field name="code">0441</field>
+      <field name="name">Income of agricultural lands</field>
+      <field name="arabic_name">ايرادالاراضي الزراعيه</field>
+    </record>
+    <record id="0442" model="account.tax.activity.code">
+      <field name="code">0442</field>
+      <field name="name">Revenue from constructed real estate</field>
+      <field name="arabic_name">ايراد العقارات المبنيه</field>
+    </record>
+    <record id="0444" model="account.tax.activity.code">
+      <field name="code">0444</field>
+      <field name="name">Income of real estate activities</field>
+      <field name="arabic_name">ايراد الانشطه العقاريه</field>
+    </record>
+    <record id="0451" model="account.tax.activity.code">
+      <field name="code">0451</field>
+      <field name="name">Errand stamp</field>
+      <field name="arabic_name">دمغة مأمورية</field>
+    </record>
+    <record id="0461" model="account.tax.activity.code">
+      <field name="code">0461</field>
+      <field name="name">Revenue from non-funders</field>
+      <field name="arabic_name">ايرادات غير الممولين</field>
+    </record>
+    <record id="0462" model="account.tax.activity.code">
+      <field name="code">0462</field>
+      <field name="name">Revenue of transferred capital</field>
+      <field name="arabic_name">إيراد رؤوس الأموال المنقولة</field>
+    </record>
+    <record id="0463" model="account.tax.activity.code">
+      <field name="code">0463</field>
+      <field name="name">Income earned from abroad</field>
+      <field name="arabic_name">ايرادات محصله من الخارج</field>
+    </record>
+    <record id="0464" model="account.tax.activity.code">
+      <field name="code">0464</field>
+      <field name="name">Other categories / miscellaneous other income</field>
+      <field name="arabic_name">فئات اخري/ ايرادات اخري متنوعه</field>
+    </record>
+    <record id="0471" model="account.tax.activity.code">
+      <field name="code">0471</field>
+      <field name="name">Free market revenue</field>
+      <field name="arabic_name">ايرادات أسواق حرة</field>
+    </record>
+    <record id="0472" model="account.tax.activity.code">
+      <field name="code">0472</field>
+      <field name="name">Free Zones revenue</field>
+      <field name="arabic_name">ايرادات مناطق حره</field>
+    </record>
+    <record id="0510" model="account.tax.activity.code">
+      <field name="code">0510</field>
+      <field name="name">Hard coal mining</field>
+      <field name="arabic_name">تعدين الفحم الصلب</field>
+    </record>
+    <record id="0520" model="account.tax.activity.code">
+      <field name="code">0520</field>
+      <field name="name">Lignite mining</field>
+      <field name="arabic_name">تعدين الليجنيت</field>
+    </record>
+    <record id="0610" model="account.tax.activity.code">
+      <field name="code">0610</field>
+      <field name="name">Extract the crude oil</field>
+      <field name="arabic_name">استخرج البترول الخام</field>
+    </record>
+    <record id="0620" model="account.tax.activity.code">
+      <field name="code">0620</field>
+      <field name="name">Extract natural gas</field>
+      <field name="arabic_name">استخرج االغاز الطبيعى</field>
+    </record>
+    <record id="0710" model="account.tax.activity.code">
+      <field name="code">0710</field>
+      <field name="name">Iron ore mining</field>
+      <field name="arabic_name">تعدين الحديد الخام</field>
+    </record>
+    <record id="0721" model="account.tax.activity.code">
+      <field name="code">0721</field>
+      <field name="name">Uranium and raw thorium mining</field>
+      <field name="arabic_name">تعدين اليورانيوم والثوريوم الخام</field>
+    </record>
+    <record id="0729" model="account.tax.activity.code">
+      <field name="code">0729</field>
+      <field name="name">Mining other non-ferrous metals</field>
+      <field name="arabic_name">تعدين المعادن الخام الاخرى غير الحديدية</field>
+    </record>
+    <record id="0810" model="account.tax.activity.code">
+      <field name="code">0810</field>
+      <field name="name">Quarrying to extract stones, sand and shale</field>
+      <field name="arabic_name">استغلال المحاجر لاستخراج الاحجار والرمال والطفل</field>
+    </record>
+    <record id="0891" model="account.tax.activity.code">
+      <field name="code">0891</field>
+      <field name="name">Chemical minerals and fertilizer extraction</field>
+      <field name="arabic_name">استخراج المعادن الكيميائية والاسمدة</field>
+    </record>
+    <record id="0892" model="account.tax.activity.code">
+      <field name="code">0892</field>
+      <field name="name">Peat extraction</field>
+      <field name="arabic_name">استخراج الخث</field>
+    </record>
+    <record id="0893" model="account.tax.activity.code">
+      <field name="code">0893</field>
+      <field name="name">Salt extraction</field>
+      <field name="arabic_name">استخراج الملح</field>
+    </record>
+    <record id="0899" model="account.tax.activity.code">
+      <field name="code">0899</field>
+      <field name="name">Other mining and quarrying activities are not elsewhere classified</field>
+      <field name="arabic_name">الانشطة الاخرى للتعدين واستغلال المحاجر غير مصنفة فى موضع اخر</field>
+    </record>
+    <record id="0910" model="account.tax.activity.code">
+      <field name="code">0910</field>
+      <field name="name">Service activities in support of oil and natural gas extraction</field>
+      <field name="arabic_name">انشطة الخدمات الداعمة لاعمال استخراج البترول والغاز الطبيعى</field>
+    </record>
+    <record id="0990" model="account.tax.activity.code">
+      <field name="code">0990</field>
+      <field name="name">Service activities in support of other mining and quarrying activities</field>
+      <field name="arabic_name">انشطة الخدمات الداعمة للاعمال الاخرى للتعدين واستغلال المحاجر</field>
+    </record>
+    <record id="1010" model="account.tax.activity.code">
+      <field name="code">1010</field>
+      <field name="name">Meat processing and preservation</field>
+      <field name="arabic_name">تصنيع وحفظ اللحوم</field>
+    </record>
+    <record id="1020" model="account.tax.activity.code">
+      <field name="code">1020</field>
+      <field name="name">Manufacture and preservation of fish, crustaceans and mollusks</field>
+      <field name="arabic_name">تصنيع وحفظ الاسماك والقشريات والرخويات</field>
+    </record>
+    <record id="1030" model="account.tax.activity.code">
+      <field name="code">1030</field>
+      <field name="name">Manufacturing and preserving fruits and vegetables</field>
+      <field name="arabic_name">تصنيع وحفظ الفواكهة و الخضراوات</field>
+    </record>
+    <record id="1040" model="account.tax.activity.code">
+      <field name="code">1040</field>
+      <field name="name">Manufacture of vegetable and animal oils and fats</field>
+      <field name="arabic_name">تصنيع الزيوت و الدهون الحيوانية والنباتية</field>
+    </record>
+    <record id="1050" model="account.tax.activity.code">
+      <field name="code">1050</field>
+      <field name="name">Dairy products manufacturing</field>
+      <field name="arabic_name">تصنيع منتجات الالبان</field>
+    </record>
+    <record id="1061" model="account.tax.activity.code">
+      <field name="code">1061</field>
+      <field name="name">Manufacture of grain mill products</field>
+      <field name="arabic_name">تصنيع منتجات طواحين الحبوب</field>
+    </record>
+    <record id="1062" model="account.tax.activity.code">
+      <field name="code">1062</field>
+      <field name="name">Manufacture of starch and starch products</field>
+      <field name="arabic_name">تصنيع منتجات النشاء ومنتجات النشاء</field>
+    </record>
+    <record id="1071" model="account.tax.activity.code">
+      <field name="code">1071</field>
+      <field name="name">Manufacturing bakery products</field>
+      <field name="arabic_name">تصنيع منتجات المخابز</field>
+    </record>
+    <record id="1072" model="account.tax.activity.code">
+      <field name="code">1072</field>
+      <field name="name">Sugar industry</field>
+      <field name="arabic_name">صناعة السكر</field>
+    </record>
+    <record id="1073" model="account.tax.activity.code">
+      <field name="code">1073</field>
+      <field name="name">Manufacture of cocoa, chocolate and sugar confectionery</field>
+      <field name="arabic_name">تصنيع الكاكاو والشيكولاتة والحلويات السكرية</field>
+    </record>
+    <record id="1074" model="account.tax.activity.code">
+      <field name="code">1074</field>
+      <field name="name">Manufacturing pasta, strips, couscous and similar starchy products</field>
+      <field name="arabic_name">تصنيع المعكرونة وشرائطها والكسكسى والمنتجات النشوية المماثلة</field>
+    </record>
+    <record id="1075" model="account.tax.activity.code">
+      <field name="code">1075</field>
+      <field name="name">Meals and ready-made food industry</field>
+      <field name="arabic_name">صناعة الوجبات و الاغذية الجاهزة</field>
+    </record>
+    <record id="1079" model="account.tax.activity.code">
+      <field name="code">1079</field>
+      <field name="name">Manufacture of other products not classified elsewhere</field>
+      <field name="arabic_name">صناعة المنتجات الاخرى غير مصنفة فى موضع اخر</field>
+    </record>
+    <record id="1080" model="account.tax.activity.code">
+      <field name="code">1080</field>
+      <field name="name">Prepared animal food industry</field>
+      <field name="arabic_name">صناعة الاغذية الحيوانية المجهزة</field>
+    </record>
+    <record id="1101" model="account.tax.activity.code">
+      <field name="code">1101</field>
+      <field name="name">Spirits distilled, refined and mixed</field>
+      <field name="arabic_name">تقطير المشروبات الروحية وتكريرها وخلطها</field>
+    </record>
+    <record id="1102" model="account.tax.activity.code">
+      <field name="code">1102</field>
+      <field name="name">Winemaking</field>
+      <field name="arabic_name">صناعة النبيذ</field>
+    </record>
+    <record id="1103" model="account.tax.activity.code">
+      <field name="code">1103</field>
+      <field name="name">The manufacture of alcoholic drinks derived from the molten and the manufacture of molten</field>
+      <field name="arabic_name">صناعة المشروبات الكحولية المشتقة من المولت وصنع المولت</field>
+    </record>
+    <record id="1104" model="account.tax.activity.code">
+      <field name="code">1104</field>
+      <field name="name">Manufacturing soft drinks and producing mineral water</field>
+      <field name="arabic_name">صناعة المشروبات المرطبة وانتاج المياة المعدنية</field>
+    </record>
+    <record id="1200" model="account.tax.activity.code">
+      <field name="code">1200</field>
+      <field name="name">Manufacture of tobacco products</field>
+      <field name="arabic_name">صناعة منتجات التبغ</field>
+    </record>
+    <record id="1311" model="account.tax.activity.code">
+      <field name="code">1311</field>
+      <field name="name">Processing and spinning of textile fibers</field>
+      <field name="arabic_name">تجهيز وغزل الياف المنسوجات</field>
+    </record>
+    <record id="1312" model="account.tax.activity.code">
+      <field name="code">1312</field>
+      <field name="name">Textile weave</field>
+      <field name="arabic_name">نسج المنسوجات</field>
+    </record>
+    <record id="1313" model="account.tax.activity.code">
+      <field name="code">1313</field>
+      <field name="name">The textile industry</field>
+      <field name="arabic_name">صناعة المنسوجات</field>
+    </record>
+    <record id="1391" model="account.tax.activity.code">
+      <field name="code">1391</field>
+      <field name="name">Manufacture of knitted and crocheted fabrics</field>
+      <field name="arabic_name">صناعة الاقمشة التريكو والكروشية</field>
+    </record>
+    <record id="1392" model="account.tax.activity.code">
+      <field name="code">1392</field>
+      <field name="name">Manufacture of ready-made textile accessories, except garment wear</field>
+      <field name="arabic_name">صناعة مستلزمات المنسوجات الجاهزة باستثناء ملابس الزينة</field>
+    </record>
+    <record id="1393" model="account.tax.activity.code">
+      <field name="code">1393</field>
+      <field name="name">Carpet and blanket industry</field>
+      <field name="arabic_name">صناعة السجاد والبطاطين</field>
+    </record>
+    <record id="1394" model="account.tax.activity.code">
+      <field name="code">1394</field>
+      <field name="name">Manufacture of ropes, thick and double ropes and nets</field>
+      <field name="arabic_name">صناعة الحبال والحبال الغليظة والمذدوجة والشباك</field>
+    </record>
+    <record id="1399" model="account.tax.activity.code">
+      <field name="code">1399</field>
+      <field name="name">Other textile industry not elsewhere classified</field>
+      <field name="arabic_name">صناعة المنسوجات الاخرى غير مصنفة فى موضع اخر</field>
+    </record>
+    <record id="1410" model="account.tax.activity.code">
+      <field name="code">1410</field>
+      <field name="name">Manufacture of garment with the exception of fur</field>
+      <field name="arabic_name">صناعة الملابس ذات الزينة باستثناء الفراء</field>
+    </record>
+    <record id="1420" model="account.tax.activity.code">
+      <field name="code">1420</field>
+      <field name="name">Fur accessories industry</field>
+      <field name="arabic_name">صناعة مستلزمات الفراء</field>
+    </record>
+    <record id="1430" model="account.tax.activity.code">
+      <field name="code">1430</field>
+      <field name="name">The manufacture of clothing, knitted and crocheted</field>
+      <field name="arabic_name">صناعة ملابس الزينة بالتريكو والكروشية</field>
+    </record>
+    <record id="1511" model="account.tax.activity.code">
+      <field name="code">1511</field>
+      <field name="name">Tanning and processing of leather, fillings and dyeing of fur</field>
+      <field name="arabic_name">دبغ وتجهيز الجلود والحشوات وصباغة الفراء</field>
+    </record>
+    <record id="1512" model="account.tax.activity.code">
+      <field name="code">1512</field>
+      <field name="name">Luggage, handbags and similar industries, along with saddles and horse sets</field>
+      <field name="arabic_name">صناعة حفائب الامتعة وحقائب اليد وما شابهة ذلك الى جانب السروج واطقم الجياد</field>
+    </record>
+    <record id="1520" model="account.tax.activity.code">
+      <field name="code">1520</field>
+      <field name="name">Shoe manufacturing</field>
+      <field name="arabic_name">صناعة الاحذية</field>
+    </record>
+    <record id="1610" model="account.tax.activity.code">
+      <field name="code">1610</field>
+      <field name="name">Sawing wood and abrasion</field>
+      <field name="arabic_name">نشر الخشب وسحجة</field>
+    </record>
+    <record id="1621" model="account.tax.activity.code">
+      <field name="code">1621</field>
+      <field name="name">Sheets made of wood veneer and wood-based panels</field>
+      <field name="arabic_name">الصفائح من قشرة الخشب والالواح ذات الاساس الخشبى</field>
+    </record>
+    <record id="1622" model="account.tax.activity.code">
+      <field name="code">1622</field>
+      <field name="name">Manufacture of carpentry accessories intended for buildings and installations</field>
+      <field name="arabic_name">صناعة مستلزمات النجارة المعدة للابنية والمنشات</field>
+    </record>
+    <record id="1623" model="account.tax.activity.code">
+      <field name="code">1623</field>
+      <field name="name">Wooden boxes industry</field>
+      <field name="arabic_name">صناعة الصناديق الخشبية</field>
+    </record>
+    <record id="1629" model="account.tax.activity.code">
+      <field name="code">1629</field>
+      <field name="name">Manufacture of wood, wood products and cork, except furniture, and manufacture of articles produced from straw and sheets</field>
+      <field name="arabic_name">صناعة الاخشاب والمنتجات الخشبية والفلين باستثناء الاثاث وصناعة الاصناف المنتجة من القش والصفائح</field>
+    </record>
+    <record id="1701" model="account.tax.activity.code">
+      <field name="code">1701</field>
+      <field name="name">Paper and carvatard pulp industry</field>
+      <field name="arabic_name">صناعة عجائن الورق و الورق المقوى ( الكارتون )</field>
+    </record>
+    <record id="1702" model="account.tax.activity.code">
+      <field name="code">1702</field>
+      <field name="name">Manufacture of corrugated paper and paperboard and boxes made of paper and paperboard</field>
+      <field name="arabic_name">صناعة الورق والورق المقوى المموج والصناديق المصنوعة من الورق والورق المقوى</field>
+    </record>
+    <record id="1709" model="account.tax.activity.code">
+      <field name="code">1709</field>
+      <field name="name">Manufacture of other articles of paper and paperboard</field>
+      <field name="arabic_name">صناعة اصناف اخرى من الورق والورق المقوى</field>
+    </record>
+    <record id="1811" model="account.tax.activity.code">
+      <field name="code">1811</field>
+      <field name="name">printing</field>
+      <field name="arabic_name">الطباعة</field>
+    </record>
+    <record id="1812" model="account.tax.activity.code">
+      <field name="code">1812</field>
+      <field name="name">Printing service activities</field>
+      <field name="arabic_name">انشطة الخدمات المرتبطة بالطباعة</field>
+    </record>
+    <record id="1820" model="account.tax.activity.code">
+      <field name="code">1820</field>
+      <field name="name">Clone recorded media</field>
+      <field name="arabic_name">استنساخ وسائل الاعلام المسجلة</field>
+    </record>
+    <record id="1910" model="account.tax.activity.code">
+      <field name="code">1910</field>
+      <field name="name">Coke oven products industry</field>
+      <field name="arabic_name">صناعة منتجات افران الكوك</field>
+    </record>
+    <record id="1920" model="account.tax.activity.code">
+      <field name="code">1920</field>
+      <field name="name">Refined petroleum products</field>
+      <field name="arabic_name">المنتجات النفطية المكررة</field>
+    </record>
+    <record id="2011" model="account.tax.activity.code">
+      <field name="code">2011</field>
+      <field name="name">Basic chemicals</field>
+      <field name="arabic_name">المواد الكيميائية الاساسية</field>
+    </record>
+    <record id="2012" model="account.tax.activity.code">
+      <field name="code">2012</field>
+      <field name="name">Manufacture of fertilizers and nitrogen compounds</field>
+      <field name="arabic_name">صناعة الاسمدة والمركبات الازوتية</field>
+    </record>
+    <record id="2013" model="account.tax.activity.code">
+      <field name="code">2013</field>
+      <field name="name">Plastics industry in its primary forms and synthetic rubber</field>
+      <field name="arabic_name">صناعة اللادائن فى اشكالها الاولية والمطاط الصناعى</field>
+    </record>
+    <record id="2021" model="account.tax.activity.code">
+      <field name="code">2021</field>
+      <field name="name">Pesticide industry and other agricultural chemical products</field>
+      <field name="arabic_name">صناعة مبيدات الافات والمنتجات الكيميائية الزراعية الاخرى</field>
+    </record>
+    <record id="2022" model="account.tax.activity.code">
+      <field name="code">2022</field>
+      <field name="name">Manufacture of paints, varnishes, and similar coatings, printing inks and molds</field>
+      <field name="arabic_name">صناعة الدهانات والورنيش والطلاء المماثلة واحبار الطباعة والمصطكات</field>
+    </record>
+    <record id="2023" model="account.tax.activity.code">
+      <field name="code">2023</field>
+      <field name="name">Manufacture of soap, disinfectants, cleaning and polishing preparations, perfumes and cosmetics</field>
+      <field name="arabic_name">صناعة الصابون والمطهرات ومستحضرات التنظيف والتلميع والعطور ومستحضرات التجميل</field>
+    </record>
+    <record id="2029" model="account.tax.activity.code">
+      <field name="code">2029</field>
+      <field name="name">Manufacture of other chemical products not classified elsewhere</field>
+      <field name="arabic_name">صناعة المنتجات الكيميائية الاخرى غير المصنفة فى موضع اخر</field>
+    </record>
+    <record id="2030" model="account.tax.activity.code">
+      <field name="code">2030</field>
+      <field name="name">Industrial fiber industry</field>
+      <field name="arabic_name">صناعة الالياف الصناعية</field>
+    </record>
+    <record id="2100" model="account.tax.activity.code">
+      <field name="code">2100</field>
+      <field name="name">Manufacture of pharmaceutical, chemical, and plant products</field>
+      <field name="arabic_name">صناعة المستحضرات الصيدلانية والكيميائية الدواءية والمنتجات النباتية</field>
+    </record>
+    <record id="2211" model="account.tax.activity.code">
+      <field name="code">2211</field>
+      <field name="name">Manufacture of rubber tires and tubes, renewing and rebuilding the outer surfaces of rubber tires</field>
+      <field name="arabic_name">صناعة الاطارات والانابيب المطاطية وتجديد الاسطح الخارجية للاطارات المطاطية واعادة بنائها</field>
+    </record>
+    <record id="2219" model="account.tax.activity.code">
+      <field name="code">2219</field>
+      <field name="name">Manufacture of other rubber products</field>
+      <field name="arabic_name">صناعة المنتجات المطاطية الاخرى</field>
+    </record>
+    <record id="2220" model="account.tax.activity.code">
+      <field name="code">2220</field>
+      <field name="name">Plastics industry</field>
+      <field name="arabic_name">صناعة منتجات اللادائن</field>
+    </record>
+    <record id="2310" model="account.tax.activity.code">
+      <field name="code">2310</field>
+      <field name="name">Glass and its products industry</field>
+      <field name="arabic_name">صناعة الزجاج ومنتجاتة</field>
+    </record>
+    <record id="2391" model="account.tax.activity.code">
+      <field name="code">2391</field>
+      <field name="name">Manufacture of fusion products</field>
+      <field name="arabic_name">صناعة المنتجات المقاومة للانصهار</field>
+    </record>
+    <record id="2392" model="account.tax.activity.code">
+      <field name="code">2392</field>
+      <field name="name">Manufacture of Shale products for Building</field>
+      <field name="arabic_name">صناعة مواد الطفلة الخاصة بالبناء</field>
+    </record>
+    <record id="2393" model="account.tax.activity.code">
+      <field name="code">2393</field>
+      <field name="name">Manufacture of other Porcelain and ceramic products</field>
+      <field name="arabic_name">صناعة منتجات البرسولين والسيراميك الاخرى</field>
+    </record>
+    <record id="2394" model="account.tax.activity.code">
+      <field name="code">2394</field>
+      <field name="name">Cement, lime and plaster industry</field>
+      <field name="arabic_name">صناعة الاسمنت والجير والجص</field>
+    </record>
+    <record id="2395" model="account.tax.activity.code">
+      <field name="code">2395</field>
+      <field name="name">Manufacture of concrete products, cement and plaster</field>
+      <field name="arabic_name">صناعة منتجات الخرسانة والاسمنت والجص</field>
+    </record>
+    <record id="2396" model="account.tax.activity.code">
+      <field name="code">2396</field>
+      <field name="name">Cutting, forming and completing the stone processing</field>
+      <field name="arabic_name">قطع وتشكيل واتمام تجهيز الاحجار</field>
+    </record>
+    <record id="2399" model="account.tax.activity.code">
+      <field name="code">2399</field>
+      <field name="name">Manufacture of non-metallic minerals products not classified elsewhere</field>
+      <field name="arabic_name">صناعة منتجات المعادن الافلزية الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="2410" model="account.tax.activity.code">
+      <field name="code">2410</field>
+      <field name="name">The industry of basic iron and steel</field>
+      <field name="arabic_name">صناعة الحديد والصلب القاعديين</field>
+    </record>
+    <record id="2420" model="account.tax.activity.code">
+      <field name="code">2420</field>
+      <field name="name">Manufacture of precious and non-ferrous basic metals</field>
+      <field name="arabic_name">صناعة الفلزات الثمينة وغير الحديدية القاعدية</field>
+    </record>
+    <record id="2431" model="account.tax.activity.code">
+      <field name="code">2431</field>
+      <field name="name">Iron and steel casting</field>
+      <field name="arabic_name">سبك الحديدوالصلب</field>
+    </record>
+    <record id="2432" model="account.tax.activity.code">
+      <field name="code">2432</field>
+      <field name="name">Non-ferrous metal casting</field>
+      <field name="arabic_name">سبك المعادن غير الحديدية</field>
+    </record>
+    <record id="2511" model="account.tax.activity.code">
+      <field name="code">2511</field>
+      <field name="name">Structural metal products industry</field>
+      <field name="arabic_name">صناعة المنتجات المعدنية الانشائية</field>
+    </record>
+    <record id="2512" model="account.tax.activity.code">
+      <field name="code">2512</field>
+      <field name="name">Industry of tanks and metal containers</field>
+      <field name="arabic_name">صناعة الصهاريج والخزانات و الحاويات المعدنية</field>
+    </record>
+    <record id="2513" model="account.tax.activity.code">
+      <field name="code">2513</field>
+      <field name="name">Water vapor generators except for central heating boilers in hot water</field>
+      <field name="arabic_name">مولدات بخار الماء باستثناء مراجل التدفئةالمركزية بالمياة الساخنة</field>
+    </record>
+    <record id="2520" model="account.tax.activity.code">
+      <field name="code">2520</field>
+      <field name="name">Arms and ammunition industry</field>
+      <field name="arabic_name">صناعة الاسلحة والذخائر</field>
+    </record>
+    <record id="2591" model="account.tax.activity.code">
+      <field name="code">2591</field>
+      <field name="name">Forming metals by hammering, pressing, casting, rolling, and treatment of metal powders</field>
+      <field name="arabic_name">تشكيل المعادن بالطرق والكبس و السبك والدلفنة ومعالجة مساحيق المعادن</field>
+    </record>
+    <record id="2592" model="account.tax.activity.code">
+      <field name="code">2592</field>
+      <field name="name">Metal processing and coating</field>
+      <field name="arabic_name">معالجة وطلى المعادن</field>
+    </record>
+    <record id="2593" model="account.tax.activity.code">
+      <field name="code">2593</field>
+      <field name="name">Manufacture of cutting tools, hand tools and general metal tools</field>
+      <field name="arabic_name">صناعة ادوات القطع والعدد اليدوية والادوات المعدنية العامة</field>
+    </record>
+    <record id="2599" model="account.tax.activity.code">
+      <field name="code">2599</field>
+      <field name="name">Manufacture of other fabricated metal products not classified elsewhere</field>
+      <field name="arabic_name">صناعة منتجات المعادن المشكلة الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="2610" model="account.tax.activity.code">
+      <field name="code">2610</field>
+      <field name="name">Electronic components and panels industry</field>
+      <field name="arabic_name">صناعة المكونات والالواح الاليكترونية</field>
+    </record>
+    <record id="2620" model="account.tax.activity.code">
+      <field name="code">2620</field>
+      <field name="name">The manufacture of electronic computers and related devices</field>
+      <field name="arabic_name">صناعة الحاسبات الاليكترونية و الاجهزة المتصلة بة</field>
+    </record>
+    <record id="2630" model="account.tax.activity.code">
+      <field name="code">2630</field>
+      <field name="name">Communications equipment industry</field>
+      <field name="arabic_name">صناعة اجهزة الاتصالات</field>
+    </record>
+    <record id="2640" model="account.tax.activity.code">
+      <field name="code">2640</field>
+      <field name="name">Electronic devices industry</field>
+      <field name="arabic_name">صناعة الاجهزة الاليكترونية</field>
+    </record>
+    <record id="2651" model="account.tax.activity.code">
+      <field name="code">2651</field>
+      <field name="name">Manufacturing measuring, testing, navigation and control devices</field>
+      <field name="arabic_name">صناعة اجهزة القياس والاختبار و الملاحة والتحكم</field>
+    </record>
+    <record id="2652" model="account.tax.activity.code">
+      <field name="code">2652</field>
+      <field name="name">Watch and alarm clock industry</field>
+      <field name="arabic_name">صناعة الساعات والمنبهات</field>
+    </record>
+    <record id="2660" model="account.tax.activity.code">
+      <field name="code">2660</field>
+      <field name="name">Radiation, medical and therapeutic electronic devices industry</field>
+      <field name="arabic_name">صناعة الاجهزة الاشعاعية والطبية والعلاجية اللاليكترونية</field>
+    </record>
+    <record id="2670" model="account.tax.activity.code">
+      <field name="code">2670</field>
+      <field name="name">Optical equipment and imaging equipment industry</field>
+      <field name="arabic_name">صناعة المعدات البصرية واجهزة التصوير</field>
+    </record>
+    <record id="2680" model="account.tax.activity.code">
+      <field name="code">2680</field>
+      <field name="name">Optical and magnetic conveyor industry</field>
+      <field name="arabic_name">صناعة الوسائل الناقلة البصرية والمغنطيسية</field>
+    </record>
+    <record id="2710" model="account.tax.activity.code">
+      <field name="code">2710</field>
+      <field name="name">Manufacture of motors, generators, electrical transformers, devices and control panels for electricity distribution</field>
+      <field name="arabic_name">صناعة المحركات والمولدات والمحولات الكهربائية واجهزة ولوحات التحكم فى توزيع الكهرباء</field>
+    </record>
+    <record id="2720" model="account.tax.activity.code">
+      <field name="code">2720</field>
+      <field name="name">Manufacture of dry and stored batteries</field>
+      <field name="arabic_name">صناعة البطاريات الجافة والمختزنة</field>
+    </record>
+    <record id="2731" model="account.tax.activity.code">
+      <field name="code">2731</field>
+      <field name="name">Industrial fiber cable industry</field>
+      <field name="arabic_name">صناعة كابلات الالياف الصناعية</field>
+    </record>
+    <record id="2732" model="account.tax.activity.code">
+      <field name="code">2732</field>
+      <field name="name">Other electrical and electronic wires and cables</field>
+      <field name="arabic_name">صناعة الاسلاك الكهربائية والاليكترونية الاخرى والكابلات</field>
+    </record>
+    <record id="2733" model="account.tax.activity.code">
+      <field name="code">2733</field>
+      <field name="name">Wire devices industry</field>
+      <field name="arabic_name">صناعة اجهزة الاسلاك</field>
+    </record>
+    <record id="2740" model="account.tax.activity.code">
+      <field name="code">2740</field>
+      <field name="name">Electrical lighting devices industry</field>
+      <field name="arabic_name">صناعة اجهزة الانارة الكهربائية</field>
+    </record>
+    <record id="2750" model="account.tax.activity.code">
+      <field name="code">2750</field>
+      <field name="name">Home appliances industry</field>
+      <field name="arabic_name">صناعة الاجهزة المنزلية</field>
+    </record>
+    <record id="2790" model="account.tax.activity.code">
+      <field name="code">2790</field>
+      <field name="name">Other electrical appliances industry</field>
+      <field name="arabic_name">صناعة الاجهزة الكهربائية الاخرى</field>
+    </record>
+    <record id="2811" model="account.tax.activity.code">
+      <field name="code">2811</field>
+      <field name="name">Manufacture of generators and engines, with the exception of aircraft, vehicles and motorcycles</field>
+      <field name="arabic_name">صناعة المولدات والمحركات باسقثناء الطائرات والمركبات ومحركات الموتيسيكلات</field>
+    </record>
+    <record id="2812" model="account.tax.activity.code">
+      <field name="code">2812</field>
+      <field name="name">Liquid power devices industry</field>
+      <field name="arabic_name">صناعة اجهزة الطاقة السائلة</field>
+    </record>
+    <record id="2813" model="account.tax.activity.code">
+      <field name="code">2813</field>
+      <field name="name">Manufacture of pumps, compressors, tapes and other valves</field>
+      <field name="arabic_name">صناعة المضخات والضواغط والاشرطة والصمامات الاخرى</field>
+    </record>
+    <record id="2814" model="account.tax.activity.code">
+      <field name="code">2814</field>
+      <field name="name">Gears, carriers and driving devices industry</field>
+      <field name="arabic_name">صناعة التروس والحاملات واجهزة القيادة</field>
+    </record>
+    <record id="2815" model="account.tax.activity.code">
+      <field name="code">2815</field>
+      <field name="name">Manufacture of furnaces, furnaces and their incinerators</field>
+      <field name="arabic_name">صناعة الافران و الاتونات ومحرقاتها</field>
+    </record>
+    <record id="2816" model="account.tax.activity.code">
+      <field name="code">2816</field>
+      <field name="name">The elevators and equipment needed for it</field>
+      <field name="arabic_name">صناعة المصاعد والمعدات الازمة لها</field>
+    </record>
+    <record id="2817" model="account.tax.activity.code">
+      <field name="code">2817</field>
+      <field name="name">Manufacture of office equipment and equipment (excluding electronic computers and their accessories)</field>
+      <field name="arabic_name">صناعة الاجهزة والمعدات المكتبية ( باستثناء الحاسبات الاليكترونية ومستلزماتها )</field>
+    </record>
+    <record id="2818" model="account.tax.activity.code">
+      <field name="code">2818</field>
+      <field name="name">Manufacture of manual power steering equipment</field>
+      <field name="arabic_name">صناعة المعدات اليدوية لتوجية الطاقة</field>
+    </record>
+    <record id="2819" model="account.tax.activity.code">
+      <field name="code">2819</field>
+      <field name="name">Other equipment industry of various purposes</field>
+      <field name="arabic_name">صناعة المعدات الاخرى ذات الاغراض المتنوعة</field>
+    </record>
+    <record id="2821" model="account.tax.activity.code">
+      <field name="code">2821</field>
+      <field name="name">Agricultural and forestry equipment industry</field>
+      <field name="arabic_name">صناعة المعدات الزراعية والخاصة بالغابات</field>
+    </record>
+    <record id="2822" model="account.tax.activity.code">
+      <field name="code">2822</field>
+      <field name="name">Manufacture of equipment and machinery for forming metals</field>
+      <field name="arabic_name">صناعة معدات واجهزة تشكيل المعادن</field>
+    </record>
+    <record id="2823" model="account.tax.activity.code">
+      <field name="code">2823</field>
+      <field name="name">Metal equipment industry</field>
+      <field name="arabic_name">صناعة معدات المعادن</field>
+    </record>
+    <record id="2824" model="account.tax.activity.code">
+      <field name="code">2824</field>
+      <field name="name">Mining and quarrying and building equipment industry</field>
+      <field name="arabic_name">صناعة معدات المناجم و المحاجر والبناء</field>
+    </record>
+    <record id="2825" model="account.tax.activity.code">
+      <field name="code">2825</field>
+      <field name="name">Manufacture of food, beverage and tobacco industries equipment</field>
+      <field name="arabic_name">صناعة معدات الصناعات الغذائية والمشرؤبات والتبغ</field>
+    </record>
+    <record id="2826" model="account.tax.activity.code">
+      <field name="code">2826</field>
+      <field name="name">Manufacture of ready-made clothes, accessories, and leather production</field>
+      <field name="arabic_name">صناعة معدات الملابس الجاهزة وهدوات الزينة وانتاج الجلود</field>
+    </record>
+    <record id="2829" model="account.tax.activity.code">
+      <field name="code">2829</field>
+      <field name="name">Manufacture of other special-purpose equipment</field>
+      <field name="arabic_name">صناعة المعدات الاخرى ذات الاغراض الخاصة</field>
+    </record>
+    <record id="2910" model="account.tax.activity.code">
+      <field name="code">2910</field>
+      <field name="name">Manufacture of motor vehicles</field>
+      <field name="arabic_name">صناعة المركبات ذات المحركات</field>
+    </record>
+    <record id="2920" model="account.tax.activity.code">
+      <field name="code">2920</field>
+      <field name="name">Manufacture of motor vehicle bodies and the manufacture of trailers and semi-trailers</field>
+      <field name="arabic_name">صناعة هياكل المركبات ذات المحركات وصناعة المقطورات ونصف المقطورات</field>
+    </record>
+    <record id="2930" model="account.tax.activity.code">
+      <field name="code">2930</field>
+      <field name="name">Manufacture of accessories and spare parts for motor vehicles</field>
+      <field name="arabic_name">صناعة مستلزمات وقطع غيار المركبات ذات المحركات</field>
+    </record>
+    <record id="3011" model="account.tax.activity.code">
+      <field name="code">3011</field>
+      <field name="name">Building ship hulls and rafts</field>
+      <field name="arabic_name">بناء هياكل السفن و الطوافات</field>
+    </record>
+    <record id="3012" model="account.tax.activity.code">
+      <field name="code">3012</field>
+      <field name="name">Manufacture of pleasure boats and sport boats</field>
+      <field name="arabic_name">صناعة قوارب النزهة والقوارب الرياضية</field>
+    </record>
+    <record id="3020" model="account.tax.activity.code">
+      <field name="code">3020</field>
+      <field name="name">Railroad locomotives and rolling stock industry</field>
+      <field name="arabic_name">صناعة قاطرات السكك الحديدية والمعدات الدارجة على السكك الحديدية</field>
+    </record>
+    <record id="3030" model="account.tax.activity.code">
+      <field name="code">3030</field>
+      <field name="name">Air and spacecraft industry</field>
+      <field name="arabic_name">صناعة المركبات الهوائية والفضائية</field>
+    </record>
+    <record id="3040" model="account.tax.activity.code">
+      <field name="code">3040</field>
+      <field name="name">Manufacture of military military vehicles</field>
+      <field name="arabic_name">صناعة المركبات العسكرية الحربية</field>
+    </record>
+    <record id="3091" model="account.tax.activity.code">
+      <field name="code">3091</field>
+      <field name="name">Industry</field>
+      <field name="arabic_name">صناعة</field>
+    </record>
+    <record id="3092" model="account.tax.activity.code">
+      <field name="code">3092</field>
+      <field name="name">Manufacture of ordinary bicycles and infirm vehicles</field>
+      <field name="arabic_name">صناعة الدراجات العادية ومركبات العجزة</field>
+    </record>
+    <record id="3099" model="account.tax.activity.code">
+      <field name="code">3099</field>
+      <field name="name">Other transportation equipment industry not classified elsewhere</field>
+      <field name="arabic_name">صناعة معدات النقل الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="3100" model="account.tax.activity.code">
+      <field name="code">3100</field>
+      <field name="name">Furniture Industry</field>
+      <field name="arabic_name">صناعة الاثاث</field>
+    </record>
+    <record id="3211" model="account.tax.activity.code">
+      <field name="code">3211</field>
+      <field name="name">Manufacture of jewelry and related items</field>
+      <field name="arabic_name">صناعة المجوهرات والاصناف المتصلة بها</field>
+    </record>
+    <record id="3212" model="account.tax.activity.code">
+      <field name="code">3212</field>
+      <field name="name">Manufacture of imitation jewelry and related items</field>
+      <field name="arabic_name">صناعة المجوهرات المقلدة والاصناف المتصلة بها</field>
+    </record>
+    <record id="3220" model="account.tax.activity.code">
+      <field name="code">3220</field>
+      <field name="name">Musical instrument industry</field>
+      <field name="arabic_name">صناعة الالات الموسيقية</field>
+    </record>
+    <record id="3230" model="account.tax.activity.code">
+      <field name="code">3230</field>
+      <field name="name">Sports products industry</field>
+      <field name="arabic_name">صناعة المنتجات الرياضية</field>
+    </record>
+    <record id="3240" model="account.tax.activity.code">
+      <field name="code">3240</field>
+      <field name="name">Make games and play</field>
+      <field name="arabic_name">صناعة الالعاب واللعب</field>
+    </record>
+    <record id="3250" model="account.tax.activity.code">
+      <field name="code">3250</field>
+      <field name="name">Manufacturing of dental and medical equipment and tools</field>
+      <field name="arabic_name">صناعة المعدات والادوات الطبية والخاصة بالاسنان</field>
+    </record>
+    <record id="3290" model="account.tax.activity.code">
+      <field name="code">3290</field>
+      <field name="name">Other industries not classified elsewhere</field>
+      <field name="arabic_name">الصناعات الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="3311" model="account.tax.activity.code">
+      <field name="code">3311</field>
+      <field name="name">Repair of manufactured metal products</field>
+      <field name="arabic_name">اصلاح المنتجات المعدنية المصنعة</field>
+    </record>
+    <record id="3312" model="account.tax.activity.code">
+      <field name="code">3312</field>
+      <field name="name">Machinery repair</field>
+      <field name="arabic_name">اصلاح الالات</field>
+    </record>
+    <record id="3313" model="account.tax.activity.code">
+      <field name="code">3313</field>
+      <field name="name">Repair of electronic and optical devices</field>
+      <field name="arabic_name">اصلاح الاجهزة الاليكترونية و البصرية</field>
+    </record>
+    <record id="3314" model="account.tax.activity.code">
+      <field name="code">3314</field>
+      <field name="name">Electronic devices repair</field>
+      <field name="arabic_name">اصلاح الاجهزة الاليكترونية</field>
+    </record>
+    <record id="3315" model="account.tax.activity.code">
+      <field name="code">3315</field>
+      <field name="name">Repair of transport devices, except for motor vehicles</field>
+      <field name="arabic_name">اصلاح اجهزة النقل باستثناء المركبات ذات المحركات</field>
+    </record>
+    <record id="3319" model="account.tax.activity.code">
+      <field name="code">3319</field>
+      <field name="name">Repair other devices</field>
+      <field name="arabic_name">اصلاح الاجهزة الاخرى</field>
+    </record>
+    <record id="3320" model="account.tax.activity.code">
+      <field name="code">3320</field>
+      <field name="name">Installation of industrial equipment and devices</field>
+      <field name="arabic_name">تركيب المعدات و الاجهزة الصناعية</field>
+    </record>
+    <record id="3510" model="account.tax.activity.code">
+      <field name="code">3510</field>
+      <field name="name">Electric generators, transformers and power distributors</field>
+      <field name="arabic_name">المولدات الكهربائية ومحولات وموزعات الكهرباء</field>
+    </record>
+    <record id="3520" model="account.tax.activity.code">
+      <field name="code">3520</field>
+      <field name="name">Manufacture of sulfur gas and distribution of gaseous fuels by means of main pipes</field>
+      <field name="arabic_name">صناعة غاز الاستصباح وتوزيع انواع الوقود الغازية عن طريق مواسير رئيسية</field>
+    </record>
+    <record id="3530" model="account.tax.activity.code">
+      <field name="code">3530</field>
+      <field name="name">Steam supply and air conditioning</field>
+      <field name="arabic_name">توريد البخار واجهزة تكييف الهواء</field>
+    </record>
+    <record id="3600" model="account.tax.activity.code">
+      <field name="code">3600</field>
+      <field name="name">Water collection, treatment and supply</field>
+      <field name="arabic_name">تجميع ومعالجة وتوريد المياة</field>
+    </record>
+    <record id="3700" model="account.tax.activity.code">
+      <field name="code">3700</field>
+      <field name="name">Sewer</field>
+      <field name="arabic_name">المجارى</field>
+    </record>
+    <record id="3811" model="account.tax.activity.code">
+      <field name="code">3811</field>
+      <field name="name">Collection of non-hazardous waste</field>
+      <field name="arabic_name">تجميع المخلفات غير الخطرة</field>
+    </record>
+    <record id="3812" model="account.tax.activity.code">
+      <field name="code">3812</field>
+      <field name="name">Collection of hazardous waste</field>
+      <field name="arabic_name">تجميع المخلفات الخطرة</field>
+    </record>
+    <record id="3821" model="account.tax.activity.code">
+      <field name="code">3821</field>
+      <field name="name">Treatment and disposal of non-hazardous waste</field>
+      <field name="arabic_name">معالجة والتصرف فى المخلفات غير الخطرة</field>
+    </record>
+    <record id="3822" model="account.tax.activity.code">
+      <field name="code">3822</field>
+      <field name="name">Treatment and disposal of hazardous waste</field>
+      <field name="arabic_name">معالجة والتصرف فى المخلفات الخطرة</field>
+    </record>
+    <record id="3830" model="account.tax.activity.code">
+      <field name="code">3830</field>
+      <field name="name">Material handling</field>
+      <field name="arabic_name">معالجة المواد</field>
+    </record>
+    <record id="3900" model="account.tax.activity.code">
+      <field name="code">3900</field>
+      <field name="name">Recycling activities and services and the disposal of other waste</field>
+      <field name="arabic_name">انشطة وخدمات اعادة التدوير والتصرف فى النفايات الاخرى</field>
+    </record>
+    <record id="4100" model="account.tax.activity.code">
+      <field name="code">4100</field>
+      <field name="name">Building constructions</field>
+      <field name="arabic_name">انشاءات المبانى</field>
+    </record>
+    <record id="4210" model="account.tax.activity.code">
+      <field name="code">4210</field>
+      <field name="name">Road and railway constructions</field>
+      <field name="arabic_name">الانشاءات الخاصة بالطرق والسكك الحديدية</field>
+    </record>
+    <record id="4220" model="account.tax.activity.code">
+      <field name="code">4220</field>
+      <field name="name">Construction for projects of public benefit</field>
+      <field name="arabic_name">الانشاءات الخاصة بالمشاريع ذات المنفعة العامة</field>
+    </record>
+    <record id="4290" model="account.tax.activity.code">
+      <field name="code">4290</field>
+      <field name="name">Construction for other civil engineering projects</field>
+      <field name="arabic_name">الانشاءات الخاصة بالمشاريع الهندسية المدنية الاخرى</field>
+    </record>
+    <record id="4311" model="account.tax.activity.code">
+      <field name="code">4311</field>
+      <field name="name">Remove the installations</field>
+      <field name="arabic_name">ازالة المنشات</field>
+    </record>
+    <record id="4312" model="account.tax.activity.code">
+      <field name="code">4312</field>
+      <field name="name">Preparing sites</field>
+      <field name="arabic_name">اعداد المواقع</field>
+    </record>
+    <record id="4321" model="account.tax.activity.code">
+      <field name="code">4321</field>
+      <field name="name">Electrical installations</field>
+      <field name="arabic_name">التركيبات الكهربائية</field>
+    </record>
+    <record id="4322" model="account.tax.activity.code">
+      <field name="code">4322</field>
+      <field name="name">Plumbing, heating and air-conditioning installations</field>
+      <field name="arabic_name">التركيبات الخاصة بالسباكة والتدفئة ومكيفات الهواء</field>
+    </record>
+    <record id="4329" model="account.tax.activity.code">
+      <field name="code">4329</field>
+      <field name="name">Other structural installations</field>
+      <field name="arabic_name">التركيبات الانشائية الاخرى</field>
+    </record>
+    <record id="4330" model="account.tax.activity.code">
+      <field name="code">4330</field>
+      <field name="name">Completion and finishing of buildings</field>
+      <field name="arabic_name">استكمال وتشطيب المبانى</field>
+    </record>
+    <record id="4390" model="account.tax.activity.code">
+      <field name="code">4390</field>
+      <field name="name">Other specialized construction activities</field>
+      <field name="arabic_name">انشطة الانشاءات المتخصصة الاخرى</field>
+    </record>
+    <record id="4510" model="account.tax.activity.code">
+      <field name="code">4510</field>
+      <field name="name">Sale of motor vehicles</field>
+      <field name="arabic_name">بيع المركبات ذات المحركات</field>
+    </record>
+    <record id="4520" model="account.tax.activity.code">
+      <field name="code">4520</field>
+      <field name="name">Maintenance and repair of motor vehicles</field>
+      <field name="arabic_name">صيانة واصلاح المركبات ذات المحركات</field>
+    </record>
+    <record id="4530" model="account.tax.activity.code">
+      <field name="code">4530</field>
+      <field name="name">Sale of motor vehicle parts and accessories</field>
+      <field name="arabic_name">بيع قطع غيار ومستلزمات المركبات ذات المحركات</field>
+    </record>
+    <record id="4540" model="account.tax.activity.code">
+      <field name="code">4540</field>
+      <field name="name">Sale, maintenance and repair of motorcycles, parts and accessories thereof</field>
+      <field name="arabic_name">بيع وصيانة واصلاح الدراجات النارية وقطع الغيار والمستلزمات الخاصة بها</field>
+    </record>
+    <record id="4610" model="account.tax.activity.code">
+      <field name="code">4610</field>
+      <field name="name">Wholesale trade on the basis of a contract or a fee</field>
+      <field name="arabic_name">تجارة الجملة على اساس عقد او نظير رسم</field>
+    </record>
+    <record id="4620" model="account.tax.activity.code">
+      <field name="code">4620</field>
+      <field name="name">Wholesale trade in agricultural raw materials and live animals</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالمواد الاولية الزراعية والحيوانات الحية</field>
+    </record>
+    <record id="4630" model="account.tax.activity.code">
+      <field name="code">4630</field>
+      <field name="name">Wholesale trade of food, beverages and tobacco</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالاغذية والمشرؤبات والتبغ</field>
+    </record>
+    <record id="4641" model="account.tax.activity.code">
+      <field name="code">4641</field>
+      <field name="name">Wholesale trade of clothes, fabrics and shoes</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالملابس والاقمشة والاحذية</field>
+    </record>
+    <record id="4649" model="account.tax.activity.code">
+      <field name="code">4649</field>
+      <field name="name">Wholesale trade for other household appliances</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالادوات المنزلية الاخرة</field>
+    </record>
+    <record id="4651" model="account.tax.activity.code">
+      <field name="code">4651</field>
+      <field name="name">Wholesale trade of computer hardware, accessories and computer software</field>
+      <field name="arabic_name">تجارة الجملة الخاصة باجهزة الكمبيوتر ومستلزماتها وبرامج الكمبيوتر</field>
+    </record>
+    <record id="4652" model="account.tax.activity.code">
+      <field name="code">4652</field>
+      <field name="name">Wholesale trade of electronic devices, communications devices and accessories</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالاجهزة الاليكترونية واجهزة الاتصالات ومستلزماتها</field>
+    </record>
+    <record id="4653" model="account.tax.activity.code">
+      <field name="code">4653</field>
+      <field name="name">Wholesale trade for agricultural equipment, machinery and supplies</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالمعدات والالات والتوريدات الزراعية</field>
+    </record>
+    <record id="4659" model="account.tax.activity.code">
+      <field name="code">4659</field>
+      <field name="name">Wholesale trade of equipment and other devices</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالمعدات والاجهزة الاخرى</field>
+    </record>
+    <record id="4661" model="account.tax.activity.code">
+      <field name="code">4661</field>
+      <field name="name">Wholesale trade of dry, liquid and gaseous fuels and related products</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالوقود الجاف والسائل والغازى والمنتجات المرتبطة بذلك</field>
+    </record>
+    <record id="4662" model="account.tax.activity.code">
+      <field name="code">4662</field>
+      <field name="name">Wholesale trade in precious metals and minerals</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالمعادن والمعادن النفيسة</field>
+    </record>
+    <record id="4663" model="account.tax.activity.code">
+      <field name="code">4663</field>
+      <field name="name">Wholesale trade, supplies and equipment for building materials, hardware, plumbing and heating appliances</field>
+      <field name="arabic_name">تجارة الجملة والتوريدات والاجهزة الخاصة بمواد البناء والادوات المعدنية والسباكة واجهزة التدفئة</field>
+    </record>
+    <record id="4669" model="account.tax.activity.code">
+      <field name="code">4669</field>
+      <field name="name">Wholesale trade for waste, waste and other products not classified elsewhere</field>
+      <field name="arabic_name">تجارة الجملة الخاصة بالنفايات والمخلفات والمنتجات الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="4690" model="account.tax.activity.code">
+      <field name="code">4690</field>
+      <field name="name">Non-specialized wholesale trade</field>
+      <field name="arabic_name">تجارة الجملة غير المتخصصة</field>
+    </record>
+    <record id="4711" model="account.tax.activity.code">
+      <field name="code">4711</field>
+      <field name="name">Retail sale in non-specialized stores of food, beverages or tobacco</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر غير المتخصصة للاغذية والمشروبات اوالتبغ</field>
+    </record>
+    <record id="4719" model="account.tax.activity.code">
+      <field name="code">4719</field>
+      <field name="name">Other retail types in non-specialized stores</field>
+      <field name="arabic_name">انواع البيع بالتجزئةالاخرى بالمتاجر غير المتخصصة</field>
+    </record>
+    <record id="4721" model="account.tax.activity.code">
+      <field name="code">4721</field>
+      <field name="name">Retail sale in specialized food stores</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للاغذية</field>
+    </record>
+    <record id="4722" model="account.tax.activity.code">
+      <field name="code">4722</field>
+      <field name="name">Retail sale in specialized stores for drinks</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للمشروبات</field>
+    </record>
+    <record id="4723" model="account.tax.activity.code">
+      <field name="code">4723</field>
+      <field name="name">Retail sale in specialized stores of tobacco products</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة لمنتجات التبغ</field>
+    </record>
+    <record id="4730" model="account.tax.activity.code">
+      <field name="code">4730</field>
+      <field name="name">Retail sale of specialized vehicles for fuel</field>
+      <field name="arabic_name">البيع بالتجزئة بالاماكن المتخصصة لوقود المركبات</field>
+    </record>
+    <record id="4741" model="account.tax.activity.code">
+      <field name="code">4741</field>
+      <field name="name">Retail sale in stores specialized in computer hardware, accessories, computer software, and communications equipment</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة فى اجهزة الحاسب الالى ومستلزماتة وبرامج الكمبيوتر واجهزة الاتصالات</field>
+    </record>
+    <record id="4751" model="account.tax.activity.code">
+      <field name="code">4751</field>
+      <field name="name">Retail sale in clothing stores</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة فى الملابس</field>
+    </record>
+    <record id="4752" model="account.tax.activity.code">
+      <field name="code">4752</field>
+      <field name="name">Retail sale in specialized stores of hardware, paint and glass</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للادوات المعدنية و الطلاء والزجاج</field>
+    </record>
+    <record id="4753" model="account.tax.activity.code">
+      <field name="code">4753</field>
+      <field name="name">Retail sale in specialized stores of carpets, blankets, wall and floor coverings</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للسجاد والبطاطين واغطية الحوائط والارضيات</field>
+    </record>
+    <record id="4759" model="account.tax.activity.code">
+      <field name="code">4759</field>
+      <field name="name">Retail sale in specialized stores of household electrical appliances, furniture, lighting equipment and other household appliances</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للاجهزة الكهربائية المنزلية والاثاث واجخزة الانارة والادوات المنزلية الاخرى</field>
+    </record>
+    <record id="4761" model="account.tax.activity.code">
+      <field name="code">4761</field>
+      <field name="name">Retail sale in specialized stores of books, newspapers, and stationery</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للكتب والصحف والادوات المكتبية</field>
+    </record>
+    <record id="4762" model="account.tax.activity.code">
+      <field name="code">4762</field>
+      <field name="name">Retail sale in specialized stores of music and video recordings</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للتسجيلاتالموسشيقية والمرئية</field>
+    </record>
+    <record id="4763" model="account.tax.activity.code">
+      <field name="code">4763</field>
+      <field name="name">Retail sale in specialized stores of sports equipment</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للادوات الرياضية</field>
+    </record>
+    <record id="4764" model="account.tax.activity.code">
+      <field name="code">4764</field>
+      <field name="name">Retail sale in specialized games and toys stores</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للالعاب واللعب</field>
+    </record>
+    <record id="4771" model="account.tax.activity.code">
+      <field name="code">4771</field>
+      <field name="name">Retail sale in specialized stores of shoes, clothing and leather products</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للاحذية والملابس والمنتجات الجلدية</field>
+    </record>
+    <record id="4772" model="account.tax.activity.code">
+      <field name="code">4772</field>
+      <field name="name">Retail sale in specialized stores of pharmaceutical, medical and pharmaceutical products, ornamental and cosmetic products</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للمنتجات والعقاقير الصيدلانية والطبية وادوات الزينة والمنتجات التجميلية</field>
+    </record>
+    <record id="4773" model="account.tax.activity.code">
+      <field name="code">4773</field>
+      <field name="name">Retail sale in specialized stores of other new products</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة للمنتجات الجديدة الاخرى</field>
+    </record>
+    <record id="4774" model="account.tax.activity.code">
+      <field name="code">4774</field>
+      <field name="name">Retail sale of used products</field>
+      <field name="arabic_name">البيع بالتجزئة للمنتجات المستعملة</field>
+    </record>
+    <record id="4781" model="account.tax.activity.code">
+      <field name="code">4781</field>
+      <field name="name">Retail sale through kiosks and markets of food, soft drinks and tobacco products</field>
+      <field name="arabic_name">البيع بالتجزئة من خلال الاكشاك والاسواق للمواد الغذائية والمشروبات الخفيفة ومنتجات التبغ</field>
+    </record>
+    <record id="4782" model="account.tax.activity.code">
+      <field name="code">4782</field>
+      <field name="name">Retail sale through kiosks and markets of clothes, fabrics and shoes</field>
+      <field name="arabic_name">البيع بالتجزئة من خلال الاكشاك والاسواق للملابس والاقمشة والاحذية</field>
+    </record>
+    <record id="4789" model="account.tax.activity.code">
+      <field name="code">4789</field>
+      <field name="name">Retail sale via stalls of other products</field>
+      <field name="arabic_name">البيع بالتجزئة من خلال الاكشاك للمنتجات الاخرى</field>
+    </record>
+    <record id="4742" model="account.tax.activity.code">
+      <field name="code">4742</field>
+      <field name="name">Retail sale in stores specialized in audio-visual equipment</field>
+      <field name="arabic_name">البيع بالتجزئة بالمتاجر المتخصصة فى الاجهزة السمعية والبصرية</field>
+    </record>
+    <record id="4791" model="account.tax.activity.code">
+      <field name="code">4791</field>
+      <field name="name">Retail sale via mail requests or through the Internet</field>
+      <field name="arabic_name">البيع بالتجزئة عبر طلبات البريد او من خلال الانترنت</field>
+    </record>
+    <record id="4799" model="account.tax.activity.code">
+      <field name="code">4799</field>
+      <field name="name">Other types of retail sales that do not take place in stores, kiosks or markets</field>
+      <field name="arabic_name">انواع البيع بالتجزئةالاخرى التى لاتتم بالنتاجر او الاكشاك او الاسواق</field>
+    </record>
+    <record id="4911" model="account.tax.activity.code">
+      <field name="code">4911</field>
+      <field name="name">Inland passenger transportation</field>
+      <field name="arabic_name">النقل الداخلى للركاب</field>
+    </record>
+    <record id="4912" model="account.tax.activity.code">
+      <field name="code">4912</field>
+      <field name="name">Shipping by rail</field>
+      <field name="arabic_name">الشحن عن طريق السكك الحديدية</field>
+    </record>
+    <record id="4921" model="account.tax.activity.code">
+      <field name="code">4921</field>
+      <field name="name">Transporting land passengers outside and inside cities</field>
+      <field name="arabic_name">نقل الركاب البرى خارج وداخل المدن</field>
+    </record>
+    <record id="4922" model="account.tax.activity.code">
+      <field name="code">4922</field>
+      <field name="name">Other types of passenger transport by land</field>
+      <field name="arabic_name">انواع نقل الركاب البرية الاخرى</field>
+    </record>
+    <record id="4923" model="account.tax.activity.code">
+      <field name="code">4923</field>
+      <field name="name">Land transportation of goods by bus</field>
+      <field name="arabic_name">النقل البرى للبضائع عن طريق الحافلات</field>
+    </record>
+    <record id="4930" model="account.tax.activity.code">
+      <field name="code">4930</field>
+      <field name="name">Pipeline transportation</field>
+      <field name="arabic_name">النقل عبر خطوط الانابيب</field>
+    </record>
+    <record id="5011" model="account.tax.activity.code">
+      <field name="code">5011</field>
+      <field name="name">Transportation of marine and coastal passengers</field>
+      <field name="arabic_name">نقل الركاب البحرى والساحلى</field>
+    </record>
+    <record id="5012" model="account.tax.activity.code">
+      <field name="code">5012</field>
+      <field name="name">Marine and coastal cargo transportation</field>
+      <field name="arabic_name">نقل البضائع البحرى والساحلى</field>
+    </record>
+    <record id="5021" model="account.tax.activity.code">
+      <field name="code">5021</field>
+      <field name="name">Inland passenger water transport</field>
+      <field name="arabic_name">النقل الداخلى المائى للركاب</field>
+    </record>
+    <record id="5022" model="account.tax.activity.code">
+      <field name="code">5022</field>
+      <field name="name">Inland water transport of goods</field>
+      <field name="arabic_name">النقل الداخلى المائى للبضائع</field>
+    </record>
+    <record id="5110" model="account.tax.activity.code">
+      <field name="code">5110</field>
+      <field name="name">Air transport of passengers</field>
+      <field name="arabic_name">النقل الجوى للركاب</field>
+    </record>
+    <record id="5120" model="account.tax.activity.code">
+      <field name="code">5120</field>
+      <field name="name">Air freight transport</field>
+      <field name="arabic_name">النقل الجوى للبضائع</field>
+    </record>
+    <record id="5210" model="account.tax.activity.code">
+      <field name="code">5210</field>
+      <field name="name">Keep and store</field>
+      <field name="arabic_name">الاحتفاظ والتخزين</field>
+    </record>
+    <record id="5221" model="account.tax.activity.code">
+      <field name="code">5221</field>
+      <field name="name">Service activities related to road transport</field>
+      <field name="arabic_name">انشطة الخدمات المتصلة بالنقل البرى</field>
+    </record>
+    <record id="5222" model="account.tax.activity.code">
+      <field name="code">5222</field>
+      <field name="name">Emergency service activities related to maritime transport</field>
+      <field name="arabic_name">انشطة الخدمات الطارئة المتصلة بالنقل البحرى</field>
+    </record>
+    <record id="5223" model="account.tax.activity.code">
+      <field name="code">5223</field>
+      <field name="name">Emergency service activities related to air transport</field>
+      <field name="arabic_name">انشطة الخدمات الطارئة المتصلة بالنقل الجوى</field>
+    </record>
+    <record id="5224" model="account.tax.activity.code">
+      <field name="code">5224</field>
+      <field name="name">Cargo handling</field>
+      <field name="arabic_name">مناولة البضائع</field>
+    </record>
+    <record id="5229" model="account.tax.activity.code">
+      <field name="code">5229</field>
+      <field name="name">Other activities in support of the transfer</field>
+      <field name="arabic_name">الانشطة الاخرى الداعمة للنقل</field>
+    </record>
+    <record id="5310" model="account.tax.activity.code">
+      <field name="code">5310</field>
+      <field name="name">Mail activities</field>
+      <field name="arabic_name">انشطة البريد</field>
+    </record>
+    <record id="5320" model="account.tax.activity.code">
+      <field name="code">5320</field>
+      <field name="name">Parcel delivery activities</field>
+      <field name="arabic_name">انشطة تسليم الطرود</field>
+    </record>
+    <record id="5510" model="account.tax.activity.code">
+      <field name="code">5510</field>
+      <field name="name">Short-term placement activities (rental - housing</field>
+      <field name="arabic_name">انشطة التسكين قصيرة المدة</field>
+    </record>
+    <record id="5520" model="account.tax.activity.code">
+      <field name="code">5520</field>
+      <field name="name">Campgrounds, parking lots, and locomotives</field>
+      <field name="arabic_name">اراضى المخيمات ومواقف مركبات التنزهة والقاطرات</field>
+    </record>
+    <record id="5590" model="account.tax.activity.code">
+      <field name="code">5590</field>
+      <field name="name">Other types of placement</field>
+      <field name="arabic_name">انواع التسكين الاخرى</field>
+    </record>
+    <record id="5610" model="account.tax.activity.code">
+      <field name="code">5610</field>
+      <field name="name">Restaurant service and food delivery activities by mobile means</field>
+      <field name="arabic_name">انشطة خدمات المطاعم وتوصيل الطعام بالوسائل المتحركة</field>
+    </record>
+    <record id="5621" model="account.tax.activity.code">
+      <field name="code">5621</field>
+      <field name="name">Event catering</field>
+      <field name="arabic_name">تقديم الطعام بالمناسبات</field>
+    </record>
+    <record id="5629" model="account.tax.activity.code">
+      <field name="code">5629</field>
+      <field name="name">Other catering services activities</field>
+      <field name="arabic_name">انشطة خدمات تقديم الطعام الاخرى</field>
+    </record>
+    <record id="5630" model="account.tax.activity.code">
+      <field name="code">5630</field>
+      <field name="name">Light beverage service activities</field>
+      <field name="arabic_name">انشطة خدمات تقديم المشروبات الخفيفة</field>
+    </record>
+    <record id="5811" model="account.tax.activity.code">
+      <field name="code">5811</field>
+      <field name="name">Publishing books</field>
+      <field name="arabic_name">نشر الكتب</field>
+    </record>
+    <record id="5812" model="account.tax.activity.code">
+      <field name="code">5812</field>
+      <field name="name">Publish the directory and address lists</field>
+      <field name="arabic_name">نشر الدليل وقوائم العناوين</field>
+    </record>
+    <record id="5813" model="account.tax.activity.code">
+      <field name="code">5813</field>
+      <field name="name">Publishing newspapers, magazines and periodicals</field>
+      <field name="arabic_name">نشر الصحف والمجلات والدوريات</field>
+    </record>
+    <record id="5819" model="account.tax.activity.code">
+      <field name="code">5819</field>
+      <field name="name">Other publishing activities</field>
+      <field name="arabic_name">انشطة النشر الاخرى</field>
+    </record>
+    <record id="5820" model="account.tax.activity.code">
+      <field name="code">5820</field>
+      <field name="name">Computer Software Publishing</field>
+      <field name="arabic_name">نشر برامج الحاسب الالى</field>
+    </record>
+    <record id="5911" model="account.tax.activity.code">
+      <field name="code">5911</field>
+      <field name="name">Film, video and television program production activities</field>
+      <field name="arabic_name">انشطة انتاج الافلام السينمائية والفيديو وبرامج التليفزيون</field>
+    </record>
+    <record id="5912" model="account.tax.activity.code">
+      <field name="code">5912</field>
+      <field name="name">Subsequent activities for the production of movies, videos and television programs</field>
+      <field name="arabic_name">الانشطة الاحقة لانتاج الافلام السينمائية والفيديو وبرامج التليفزيون</field>
+    </record>
+    <record id="5913" model="account.tax.activity.code">
+      <field name="code">5913</field>
+      <field name="name">Motion picture, video and television program distribution activities</field>
+      <field name="arabic_name">انشطة توزيع الافلام السينمائية والفيديو وبرامج التليفزيون</field>
+    </record>
+    <record id="5914" model="account.tax.activity.code">
+      <field name="code">5914</field>
+      <field name="name">Film screening activities</field>
+      <field name="arabic_name">انشطة عرض الافلام السينمائية</field>
+    </record>
+    <record id="5920" model="account.tax.activity.code">
+      <field name="code">5920</field>
+      <field name="name">Production and publishing of sound and music recordings</field>
+      <field name="arabic_name">انشطة انتاج ونشر التسجيلات الصوتية والموسيقية</field>
+    </record>
+    <record id="6010" model="account.tax.activity.code">
+      <field name="code">6010</field>
+      <field name="name">Broadcasting over radio stations</field>
+      <field name="arabic_name">البث عبر محطات الراديو</field>
+    </record>
+    <record id="6020" model="account.tax.activity.code">
+      <field name="code">6020</field>
+      <field name="name">Television program preparation and broadcast activities</field>
+      <field name="arabic_name">انشطة اعداد برامج التليفزيون وبثها</field>
+    </record>
+    <record id="6110" model="account.tax.activity.code">
+      <field name="code">6110</field>
+      <field name="name">Wired telecommunications activities</field>
+      <field name="arabic_name">انشطة الاتصالات السلكية</field>
+    </record>
+    <record id="6120" model="account.tax.activity.code">
+      <field name="code">6120</field>
+      <field name="name">Wireless communication activities</field>
+      <field name="arabic_name">انشطة الاتصالات اللاسلكية</field>
+    </record>
+    <record id="6130" model="account.tax.activity.code">
+      <field name="code">6130</field>
+      <field name="name">Satellite communication activities</field>
+      <field name="arabic_name">انشطة الاتصالات عبر الاقمار الصناعية</field>
+    </record>
+    <record id="6190" model="account.tax.activity.code">
+      <field name="code">6190</field>
+      <field name="name">Other telecommunications activities</field>
+      <field name="arabic_name">انشطة الاتصالات السلكية و اللاسلكية الاخرى</field>
+    </record>
+    <record id="6201" model="account.tax.activity.code">
+      <field name="code">6201</field>
+      <field name="name">Computer program preparation activities</field>
+      <field name="arabic_name">انشطة اعداد برامج الحاسب الالى</field>
+    </record>
+    <record id="6202" model="account.tax.activity.code">
+      <field name="code">6202</field>
+      <field name="name">Computer consultancy experience and facilities management activities related to computer fields</field>
+      <field name="arabic_name">الخبرة الاستشارية فى مجال الحاسب الالى وانشطة ادارة التسهيلات المتصلة بمجالات الحاسب الالى</field>
+    </record>
+    <record id="6209" model="account.tax.activity.code">
+      <field name="code">6209</field>
+      <field name="name">Other activities related to information technology and computer services</field>
+      <field name="arabic_name">الانشطة الاخرى المتصلة بتكنولوجيا المعلومات وخدمات الحاسب الالى</field>
+    </record>
+    <record id="6311" model="account.tax.activity.code">
+      <field name="code">6311</field>
+      <field name="name">Data processing, hosting and related activities</field>
+      <field name="arabic_name">معالجة البيانات والاستضافة والانشطة المتصلة بذلك</field>
+    </record>
+    <record id="6312" model="account.tax.activity.code">
+      <field name="code">6312</field>
+      <field name="name">Electronic portals</field>
+      <field name="arabic_name">البوابات الاليكترونية</field>
+    </record>
+    <record id="6391" model="account.tax.activity.code">
+      <field name="code">6391</field>
+      <field name="name">Activities of press agencies</field>
+      <field name="arabic_name">انشطة الوكالات الصحفية</field>
+    </record>
+    <record id="6399" model="account.tax.activity.code">
+      <field name="code">6399</field>
+      <field name="name">Other activities for information services that are not classified in other locations</field>
+      <field name="arabic_name">الانشطة الاخرى لخدمات تقديم المعلومات غير المصنفة فى مواقع اخرى</field>
+    </record>
+    <record id="6411" model="account.tax.activity.code">
+      <field name="code">6411</field>
+      <field name="name">Central banks</field>
+      <field name="arabic_name">المصارف المركزية</field>
+    </record>
+    <record id="6419" model="account.tax.activity.code">
+      <field name="code">6419</field>
+      <field name="name">Other financial intermediaries</field>
+      <field name="arabic_name">الوساطات المالية الاخرى</field>
+    </record>
+    <record id="6420" model="account.tax.activity.code">
+      <field name="code">6420</field>
+      <field name="name">Activities of holding companies</field>
+      <field name="arabic_name">انشطة الشركات القابضة</field>
+    </record>
+    <record id="6430" model="account.tax.activity.code">
+      <field name="code">6430</field>
+      <field name="name">Credit activities, provision of credits, and similar financial entities</field>
+      <field name="arabic_name">انشطةالائتمان وتوفير الاعتمادات والكيانات المالية المشابهة</field>
+    </record>
+    <record id="6491" model="account.tax.activity.code">
+      <field name="code">6491</field>
+      <field name="name">Financial leasing</field>
+      <field name="arabic_name">التاجير المالى</field>
+    </record>
+    <record id="6492" model="account.tax.activity.code">
+      <field name="code">6492</field>
+      <field name="name">Other forms of loans granted</field>
+      <field name="arabic_name">اشكال القروض الممنوحة الاخرى</field>
+    </record>
+    <record id="6499" model="account.tax.activity.code">
+      <field name="code">6499</field>
+      <field name="name">Other financial services activities, with the exception of insurance and credit provision activities for pensions not classified in other locations</field>
+      <field name="arabic_name">انشطة الخدمات المالية الاخرى , باستثناء التامين وانشطة توفير الاعتمادات للمعاشات التقاعدية غير المصنفة فى مواقع اخرى</field>
+    </record>
+    <record id="6511" model="account.tax.activity.code">
+      <field name="code">6511</field>
+      <field name="name">life insurance</field>
+      <field name="arabic_name">التامين على الحياة</field>
+    </record>
+    <record id="6512" model="account.tax.activity.code">
+      <field name="code">6512</field>
+      <field name="name">Non-life insurance</field>
+      <field name="arabic_name">التامين على غير الحياة</field>
+    </record>
+    <record id="6520" model="account.tax.activity.code">
+      <field name="code">6520</field>
+      <field name="name">re Insurance</field>
+      <field name="arabic_name">اعادة التامين</field>
+    </record>
+    <record id="6530" model="account.tax.activity.code">
+      <field name="code">6530</field>
+      <field name="name">Providing credits for pensions</field>
+      <field name="arabic_name">توفير الاعتمادات للمعاشات التقاعدية</field>
+    </record>
+    <record id="6611" model="account.tax.activity.code">
+      <field name="code">6611</field>
+      <field name="name">Financial markets management</field>
+      <field name="arabic_name">ادارة الاسواق المالية</field>
+    </record>
+    <record id="6612" model="account.tax.activity.code">
+      <field name="code">6612</field>
+      <field name="name">Security and commodity contracts brokerage</field>
+      <field name="arabic_name">الامن وسمسرة عقود السلع</field>
+    </record>
+    <record id="6619" model="account.tax.activity.code">
+      <field name="code">6619</field>
+      <field name="name">Auxiliary activities for financial services</field>
+      <field name="arabic_name">الانشطة المساعدة للخدمات المالية</field>
+    </record>
+    <record id="6621" model="account.tax.activity.code">
+      <field name="code">6621</field>
+      <field name="name">Risk and damage assessment</field>
+      <field name="arabic_name">تقدير المخاطر والتلفيات</field>
+    </record>
+    <record id="6622" model="account.tax.activity.code">
+      <field name="code">6622</field>
+      <field name="name">Activities of insurance and brokerage agents</field>
+      <field name="arabic_name">انشطة وكلاء التامين والسمسرة</field>
+    </record>
+    <record id="6629" model="account.tax.activity.code">
+      <field name="code">6629</field>
+      <field name="name">Other activities auxiliary to insurance and provision for pensions</field>
+      <field name="arabic_name">الانشطة الاخرى المساعدة للتامين وتوفير الاعتمادات للمعاشات التقاعدية</field>
+    </record>
+    <record id="6630" model="account.tax.activity.code">
+      <field name="code">6630</field>
+      <field name="name">Financial credit management activities</field>
+      <field name="arabic_name">انشطة ادارة الاعتمادات المالية</field>
+    </record>
+    <record id="6810" model="account.tax.activity.code">
+      <field name="code">6810</field>
+      <field name="name">Real estate activities with own or leased property</field>
+      <field name="arabic_name">الانشطة العقارية فى الممتلكات المملوكة او المؤجرة</field>
+    </record>
+    <record id="6820" model="account.tax.activity.code">
+      <field name="code">6820</field>
+      <field name="name">Real estate activities on the basis of a contract or a fee</field>
+      <field name="arabic_name">الانشطة العقارية على اساس عقد او نظير رسم</field>
+    </record>
+    <record id="6910" model="account.tax.activity.code">
+      <field name="code">6910</field>
+      <field name="name">Legal activities</field>
+      <field name="arabic_name">الانشطة القانونية</field>
+    </record>
+    <record id="6920" model="account.tax.activity.code">
+      <field name="code">6920</field>
+      <field name="name">Accounting, auditing, bookkeeping and tax advice activities</field>
+      <field name="arabic_name">الانشطة المحاسبية والمراجعة ومسك الدفاتر والاستشارات الضرائبية</field>
+    </record>
+    <record id="7010" model="account.tax.activity.code">
+      <field name="code">7010</field>
+      <field name="name">The main office activities</field>
+      <field name="arabic_name">انشطة المكاتب الرئيسية</field>
+    </record>
+    <record id="7020" model="account.tax.activity.code">
+      <field name="code">7020</field>
+      <field name="name">Management consultancy activities</field>
+      <field name="arabic_name">الانشطة الاستشارية الخاصة بالادارة</field>
+    </record>
+    <record id="7110" model="account.tax.activity.code">
+      <field name="code">7110</field>
+      <field name="name">Architectural and engineering activities and related technical consulting</field>
+      <field name="arabic_name">الانشطة المعمارية والهندسية و الاستشارات الفنية المتصلة بذلك</field>
+    </record>
+    <record id="7120" model="account.tax.activity.code">
+      <field name="code">7120</field>
+      <field name="name">Technical tests and analyzes</field>
+      <field name="arabic_name">الاختبارات والتحليلات الفنية</field>
+    </record>
+    <record id="7210" model="account.tax.activity.code">
+      <field name="code">7210</field>
+      <field name="name">Research and experimental development in the field of natural and engineering sciences</field>
+      <field name="arabic_name">البحث والتطوير التجريبى فى مجال العلوم الطبيعية والهندسية</field>
+    </record>
+    <record id="7220" model="account.tax.activity.code">
+      <field name="code">7220</field>
+      <field name="name">Experimental research and development in the field of social and human sciences</field>
+      <field name="arabic_name">البحث والتطوير التجريبى فى مجال العلوم الاجتماعية والانسانية</field>
+    </record>
+    <record id="7310" model="account.tax.activity.code">
+      <field name="code">7310</field>
+      <field name="name">Advertising</field>
+      <field name="arabic_name">الاعلان</field>
+    </record>
+    <record id="7320" model="account.tax.activity.code">
+      <field name="code">7320</field>
+      <field name="name">Market studies and public opinion polls</field>
+      <field name="arabic_name">دراسات السوق واستطلاعات الراى العام</field>
+    </record>
+    <record id="7410" model="account.tax.activity.code">
+      <field name="code">7410</field>
+      <field name="name">Specialized design activities</field>
+      <field name="arabic_name">انشطة التصميمات المتخصصة</field>
+    </record>
+    <record id="7420" model="account.tax.activity.code">
+      <field name="code">7420</field>
+      <field name="name">Photographic activities</field>
+      <field name="arabic_name">الانشطة الفوتوغرافية</field>
+    </record>
+    <record id="7490" model="account.tax.activity.code">
+      <field name="code">7490</field>
+      <field name="name">Other specialized, scientific and artistic activities not classified elsewhere</field>
+      <field name="arabic_name">الانشطة الاخرى التخصصية والعلمية والفنية غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="7500" model="account.tax.activity.code">
+      <field name="code">7500</field>
+      <field name="name">Veterinary activities</field>
+      <field name="arabic_name">الانشطة البيطرية</field>
+    </record>
+    <record id="7710" model="account.tax.activity.code">
+      <field name="code">7710</field>
+      <field name="name">Renting motor vehicles</field>
+      <field name="arabic_name">تاجيرواستئجار المركبات ذات المحركات</field>
+    </record>
+    <record id="7721" model="account.tax.activity.code">
+      <field name="code">7721</field>
+      <field name="name">Renting and renting sports and leisure products and tools</field>
+      <field name="arabic_name">تاجير واستئجار منتجات والادوات الرياضية والترفيهية</field>
+    </record>
+    <record id="7722" model="account.tax.activity.code">
+      <field name="code">7722</field>
+      <field name="name">Rental of video tapes and CDs</field>
+      <field name="arabic_name">تاجير شرائط واسطوانات الفيديو</field>
+    </record>
+    <record id="7729" model="account.tax.activity.code">
+      <field name="code">7729</field>
+      <field name="name">Renting and renting other personal and household products</field>
+      <field name="arabic_name">تاجيرواستئجار المنتجات الشخصية والمنزلية الاخرى</field>
+    </record>
+    <record id="7730" model="account.tax.activity.code">
+      <field name="code">7730</field>
+      <field name="name">Renting and leasing of other physical devices and equipment</field>
+      <field name="arabic_name">تاجير واستئجار الاجهزة والمعدات المادية الاخرى</field>
+    </record>
+    <record id="7740" model="account.tax.activity.code">
+      <field name="code">7740</field>
+      <field name="name">Rent forms of intellectual property and similar products, except for copyright works</field>
+      <field name="arabic_name">استئجار اشكال الملكية الفكرية والمنتجات المشابهة باستثناء اعمال حقوق المؤلف</field>
+    </record>
+    <record id="7810" model="account.tax.activity.code">
+      <field name="code">7810</field>
+      <field name="name">Activities of recruitment and appointment agencies</field>
+      <field name="arabic_name">انشطة وكالات التوظيف والتعيين</field>
+    </record>
+    <record id="7820" model="account.tax.activity.code">
+      <field name="code">7820</field>
+      <field name="name">Activities of temporary employment agencies</field>
+      <field name="arabic_name">انشطة وكالات التوظيف المؤقت</field>
+    </record>
+    <record id="7830" model="account.tax.activity.code">
+      <field name="code">7830</field>
+      <field name="name">Providing other human resources</field>
+      <field name="arabic_name">توفير المصادر البشرية الاخرى</field>
+    </record>
+    <record id="7911" model="account.tax.activity.code">
+      <field name="code">7911</field>
+      <field name="name">Tourism agency services</field>
+      <field name="arabic_name">خدمات وكالات السياحة</field>
+    </record>
+    <record id="7912" model="account.tax.activity.code">
+      <field name="code">7912</field>
+      <field name="name">Activities of tour guides</field>
+      <field name="arabic_name">انشطة المرشدين السياحيين</field>
+    </record>
+    <record id="7990" model="account.tax.activity.code">
+      <field name="code">7990</field>
+      <field name="name">Other types of reservations and related activities</field>
+      <field name="arabic_name">انواع الحجوزات الاخرى والانشط المتصلة بذلك</field>
+    </record>
+    <record id="8010" model="account.tax.activity.code">
+      <field name="code">8010</field>
+      <field name="name">Private security activities</field>
+      <field name="arabic_name">انشطة الامن الخاص</field>
+    </record>
+    <record id="8020" model="account.tax.activity.code">
+      <field name="code">8020</field>
+      <field name="name">Security systems services activities</field>
+      <field name="arabic_name">انشطة خدمات انظمة الامن</field>
+    </record>
+    <record id="8030" model="account.tax.activity.code">
+      <field name="code">8030</field>
+      <field name="name">Investigation activities</field>
+      <field name="arabic_name">انشطة التحرى</field>
+    </record>
+    <record id="8110" model="account.tax.activity.code">
+      <field name="code">8110</field>
+      <field name="name">Support activities for joint facilities</field>
+      <field name="arabic_name">انشطة دعم التسهيلات المشتركة</field>
+    </record>
+    <record id="8121" model="account.tax.activity.code">
+      <field name="code">8121</field>
+      <field name="name">General cleaning of buildings</field>
+      <field name="arabic_name">النظافة العامة للمبانى</field>
+    </record>
+    <record id="8129" model="account.tax.activity.code">
+      <field name="code">8129</field>
+      <field name="name">Building cleaning activities and other industrial facilities</field>
+      <field name="arabic_name">انشطة تنظيف المبانى والمنشات الصناعية الاخرى</field>
+    </record>
+    <record id="8130" model="account.tax.activity.code">
+      <field name="code">8130</field>
+      <field name="name">Gardening services and maintenance activities</field>
+      <field name="arabic_name">انشطة خدمات رعاية وصيانة الحدائق</field>
+    </record>
+    <record id="8211" model="account.tax.activity.code">
+      <field name="code">8211</field>
+      <field name="name">Joint office support services activities</field>
+      <field name="arabic_name">انشطة خدمات الدعم المكتبية المشتركة</field>
+    </record>
+    <record id="8219" model="account.tax.activity.code">
+      <field name="code">8219</field>
+      <field name="name">Photocopying, document processing and other specialized office support services activities</field>
+      <field name="arabic_name">النسخ وتجهيز المستندات وانشطة خدمات الدعم المكتبية المتخصصة الاخرى</field>
+    </record>
+    <record id="8220" model="account.tax.activity.code">
+      <field name="code">8220</field>
+      <field name="name">Information center services</field>
+      <field name="arabic_name">خدمات مراكز الاستعلامات</field>
+    </record>
+    <record id="8230" model="account.tax.activity.code">
+      <field name="code">8230</field>
+      <field name="name">Organizing trade conferences and exhibitions</field>
+      <field name="arabic_name">تنظيم المؤتمرات والمعارض التجارية</field>
+    </record>
+    <record id="8291" model="account.tax.activity.code">
+      <field name="code">8291</field>
+      <field name="name">Activities of collection agencies and lending offices</field>
+      <field name="arabic_name">انشطة وكالات التحصيل ومكاتب الاقراض</field>
+    </record>
+    <record id="8292" model="account.tax.activity.code">
+      <field name="code">8292</field>
+      <field name="name">Packaging activities</field>
+      <field name="arabic_name">انشطة التغليف</field>
+    </record>
+    <record id="8299" model="account.tax.activity.code">
+      <field name="code">8299</field>
+      <field name="name">Other support services activities that are not classified in other locations</field>
+      <field name="arabic_name">انشطة خدمات الدعم الاخرى الخاصة بالاعمال التجارية غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="8411" model="account.tax.activity.code">
+      <field name="code">8411</field>
+      <field name="name">Public administration activities</field>
+      <field name="arabic_name">انشطة الادارات العامة</field>
+    </record>
+    <record id="8412" model="account.tax.activity.code">
+      <field name="code">8412</field>
+      <field name="name">Organizing activities to provide health care, education, educational services and other social services, with the exception of social security</field>
+      <field name="arabic_name">تنظيم انشطة تقديم العناية الصحية والتعليم والخدمات التثقيفية والخدمات الاجتماعية الاخرى باستثناء الضمان الاجتماعى</field>
+    </record>
+    <record id="8413" model="account.tax.activity.code">
+      <field name="code">8413</field>
+      <field name="name">Organize and contribute to effective business operations</field>
+      <field name="arabic_name">تنظيم والمساهمة فى عمليات الاعمال التجارية الفعالة</field>
+    </record>
+    <record id="8421" model="account.tax.activity.code">
+      <field name="code">8421</field>
+      <field name="name">Foreign affairs</field>
+      <field name="arabic_name">الشئون الخارجية</field>
+    </record>
+    <record id="8422" model="account.tax.activity.code">
+      <field name="code">8422</field>
+      <field name="name">Defense activities</field>
+      <field name="arabic_name">انشطة الدفاع</field>
+    </record>
+    <record id="8423" model="account.tax.activity.code">
+      <field name="code">8423</field>
+      <field name="name">Security and public order activities</field>
+      <field name="arabic_name">انشطة الامن والنظام العام</field>
+    </record>
+    <record id="8430" model="account.tax.activity.code">
+      <field name="code">8430</field>
+      <field name="name">Compulsory social insurance activities</field>
+      <field name="arabic_name">انشطة التامين الاجتماعى الاجبارى</field>
+    </record>
+    <record id="8510" model="account.tax.activity.code">
+      <field name="code">8510</field>
+      <field name="name">Primary and pre-primary education</field>
+      <field name="arabic_name">التعليم الابتدائى وقبل الابتدائى</field>
+    </record>
+    <record id="8521" model="account.tax.activity.code">
+      <field name="code">8521</field>
+      <field name="name">General secondary education</field>
+      <field name="arabic_name">التعليم الثانوى العام</field>
+    </record>
+    <record id="8522" model="account.tax.activity.code">
+      <field name="code">8522</field>
+      <field name="name">Technical and vocational secondary education</field>
+      <field name="arabic_name">التعليم الثانوى الفنى والهنى</field>
+    </record>
+    <record id="8530" model="account.tax.activity.code">
+      <field name="code">8530</field>
+      <field name="name">Higher Education</field>
+      <field name="arabic_name">التعليم العالى</field>
+    </record>
+    <record id="8541" model="account.tax.activity.code">
+      <field name="code">8541</field>
+      <field name="name">Sports and rehabilitation education</field>
+      <field name="arabic_name">التعليم الرياضى والتاهيلى</field>
+    </record>
+    <record id="8542" model="account.tax.activity.code">
+      <field name="code">8542</field>
+      <field name="name">Cultural education</field>
+      <field name="arabic_name">التعليم الثقافى</field>
+    </record>
+    <record id="8549" model="account.tax.activity.code">
+      <field name="code">8549</field>
+      <field name="name">Other types of education not classified elsewhere</field>
+      <field name="arabic_name">انواع التعليم الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="8550" model="account.tax.activity.code">
+      <field name="code">8550</field>
+      <field name="name">Activities in support of education</field>
+      <field name="arabic_name">الانشطة الداعمة للتعليم</field>
+    </record>
+    <record id="8610" model="account.tax.activity.code">
+      <field name="code">8610</field>
+      <field name="name">Hospital activities</field>
+      <field name="arabic_name">انشطة المستشفيات</field>
+    </record>
+    <record id="8620" model="account.tax.activity.code">
+      <field name="code">8620</field>
+      <field name="name">Activities related to medicine and dentistry</field>
+      <field name="arabic_name">الانشطة المتصلة بالطب وطب الاسنان</field>
+    </record>
+    <record id="8690" model="account.tax.activity.code">
+      <field name="code">8690</field>
+      <field name="name">Other activities related to human health</field>
+      <field name="arabic_name">الانشطة الاخرى المتصلة بصحة الانسان</field>
+    </record>
+    <record id="8710" model="account.tax.activity.code">
+      <field name="code">8710</field>
+      <field name="name">Nursing facilities for sanatoriums</field>
+      <field name="arabic_name">تسهيلات العناية بالتمريض بالمصحات</field>
+    </record>
+    <record id="8720" model="account.tax.activity.code">
+      <field name="code">8720</field>
+      <field name="name">Nursing care facilities for special needs clinics, mental illnesses and physical abuse</field>
+      <field name="arabic_name">تسهيلات العناية بالتمريض بالمصحات الخاصة بذوى الاحتياجات الخاصة والامراض العقلية والانتهاكات البدنية</field>
+    </record>
+    <record id="8730" model="account.tax.activity.code">
+      <field name="code">8730</field>
+      <field name="name">Spa facilities for the elderly and disabled</field>
+      <field name="arabic_name">تسهيلات العناية بالمصحات الخاصة بالعجائز والمقعدين</field>
+    </record>
+    <record id="8790" model="account.tax.activity.code">
+      <field name="code">8790</field>
+      <field name="name">Other spa care facilities</field>
+      <field name="arabic_name">تسهيلات العناية الاخرى بالمصحات</field>
+    </record>
+    <record id="8810" model="account.tax.activity.code">
+      <field name="code">8810</field>
+      <field name="name">Social work activities for the infirm and disabled that take place without accommodation</field>
+      <field name="arabic_name">انشطة الاعمال الاجتماعية للعجزة والمقعدين التى تتم بدون اقامة</field>
+    </record>
+    <record id="8890" model="account.tax.activity.code">
+      <field name="code">8890</field>
+      <field name="name">Other social business activities that take place without residence</field>
+      <field name="arabic_name">انشطة الاعمال الاجتماعية الاخرى التى تتم بدون اقامة</field>
+    </record>
+    <record id="9000" model="account.tax.activity.code">
+      <field name="code">9000</field>
+      <field name="name">Creative and recreational art activities</field>
+      <field name="arabic_name">انشطة الفن الابداعى والترفية</field>
+    </record>
+    <record id="9101" model="account.tax.activity.code">
+      <field name="code">9101</field>
+      <field name="name">Library and archive activities</field>
+      <field name="arabic_name">انشطة المكتبات والارشيف</field>
+    </record>
+    <record id="9102" model="account.tax.activity.code">
+      <field name="code">9102</field>
+      <field name="name">Museum activities and restoration of historic sites and buildings</field>
+      <field name="arabic_name">انشطة المتاحف وعمليات ترميم المواقع والمبانى التاريخية</field>
+    </record>
+    <record id="9103" model="account.tax.activity.code">
+      <field name="code">9103</field>
+      <field name="name">Botanical and zoological gardens and natural wildlife activities</field>
+      <field name="arabic_name">حدائق النباتات والحيوانات وانشطة الحياة البرية الطبيعية</field>
+    </record>
+    <record id="9200" model="account.tax.activity.code">
+      <field name="code">9200</field>
+      <field name="name">Betting activities and gambling</field>
+      <field name="arabic_name">انشطة المراهنات والعاب القمار</field>
+    </record>
+    <record id="9311" model="account.tax.activity.code">
+      <field name="code">9311</field>
+      <field name="name">Providing sports facilities</field>
+      <field name="arabic_name">توفير التسهيلات الرياضية</field>
+    </record>
+    <record id="9312" model="account.tax.activity.code">
+      <field name="code">9312</field>
+      <field name="name">Sports club activities</field>
+      <field name="arabic_name">انشطة النوادى الرياضية</field>
+    </record>
+    <record id="9319" model="account.tax.activity.code">
+      <field name="code">9319</field>
+      <field name="name">Other sports activities</field>
+      <field name="arabic_name">الانشطة الرياضية الاخرى</field>
+    </record>
+    <record id="9321" model="account.tax.activity.code">
+      <field name="code">9321</field>
+      <field name="name">Recreational activities and performances in parks</field>
+      <field name="arabic_name">الانشطة الترفيهية والعروض التى تتم بالمتنزهات</field>
+    </record>
+    <record id="9329" model="account.tax.activity.code">
+      <field name="code">9329</field>
+      <field name="name">Other leisure and entertainment activities not classified elsewhere</field>
+      <field name="arabic_name">الانشطة الترفيهية والمسلية الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="9411" model="account.tax.activity.code">
+      <field name="code">9411</field>
+      <field name="name">The activities of commercial enterprises, employers and professional membership organizations</field>
+      <field name="arabic_name">انشطة المؤسسات التجارية وارباب العمل ومنظمات العضوية المهنية</field>
+    </record>
+    <record id="9412" model="account.tax.activity.code">
+      <field name="code">9412</field>
+      <field name="name">Activities of professional membership organizations</field>
+      <field name="arabic_name">انشطة منظمات العضوية المهنية</field>
+    </record>
+    <record id="9420" model="account.tax.activity.code">
+      <field name="code">9420</field>
+      <field name="name">Trade union activities</field>
+      <field name="arabic_name">انشطة النقابات التجارية</field>
+    </record>
+    <record id="9491" model="account.tax.activity.code">
+      <field name="code">9491</field>
+      <field name="name">Activities of religious organizations</field>
+      <field name="arabic_name">انشطة المنظمات الدينية</field>
+    </record>
+    <record id="9492" model="account.tax.activity.code">
+      <field name="code">9492</field>
+      <field name="name">Activities of political organizations</field>
+      <field name="arabic_name">انشطة المنظمات السياسية</field>
+    </record>
+    <record id="9499" model="account.tax.activity.code">
+      <field name="code">9499</field>
+      <field name="name">Activities of other membership organizations not classified elsewhere</field>
+      <field name="arabic_name">انشطة المنظمات الاخرى ذات العضوية غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="9511" model="account.tax.activity.code">
+      <field name="code">9511</field>
+      <field name="name">Computer repair and accessories</field>
+      <field name="arabic_name">اصلاح الحاسبات الالية ومستلزماتها</field>
+    </record>
+    <record id="9512" model="account.tax.activity.code">
+      <field name="code">9512</field>
+      <field name="name">Communication equipment repair</field>
+      <field name="arabic_name">اصلاح اجهزة الاتصالات</field>
+    </record>
+    <record id="9521" model="account.tax.activity.code">
+      <field name="code">9521</field>
+      <field name="name">Electronic devices repair</field>
+      <field name="arabic_name">اصلاح الاجهزة الاليكترونية</field>
+    </record>
+    <record id="9522" model="account.tax.activity.code">
+      <field name="code">9522</field>
+      <field name="name">Repair of tools, household appliances, and garden care equipment</field>
+      <field name="arabic_name">اصلاح الادوات والاجهزة المنزلية ومعدات العناية بالحدائق</field>
+    </record>
+    <record id="9523" model="account.tax.activity.code">
+      <field name="code">9523</field>
+      <field name="name">Shoe and leather products repair</field>
+      <field name="arabic_name">اصلاح الاحذية والمنتجات الجلدية</field>
+    </record>
+    <record id="9524" model="account.tax.activity.code">
+      <field name="code">9524</field>
+      <field name="name">Repair of furniture and household items</field>
+      <field name="arabic_name">اصلاح الاثاث والمستلزمات المنزلية</field>
+    </record>
+    <record id="9529" model="account.tax.activity.code">
+      <field name="code">9529</field>
+      <field name="name">Repair of other household and personal products</field>
+      <field name="arabic_name">اصلاح المنتجات المنزلية والشخصية الاخرى</field>
+    </record>
+    <record id="9601" model="account.tax.activity.code">
+      <field name="code">9601</field>
+      <field name="name">Wash and clean textile and fur products</field>
+      <field name="arabic_name">غسيل المنسوجات والمنتجات الفرائية وتنظيفها تنظيفا جافا</field>
+    </record>
+    <record id="9602" model="account.tax.activity.code">
+      <field name="code">9602</field>
+      <field name="name">Hair styling and other cosmetics</field>
+      <field name="arabic_name">تصفيف الشعر وانواع التجميل الاخرى</field>
+    </record>
+    <record id="9603" model="account.tax.activity.code">
+      <field name="code">9603</field>
+      <field name="name">Funeral and related activities</field>
+      <field name="arabic_name">انشطة الجنائز وما يتصل بها</field>
+    </record>
+    <record id="9609" model="account.tax.activity.code">
+      <field name="code">9609</field>
+      <field name="name">Other personal services activities not classified elsewhere</field>
+      <field name="arabic_name">انشطة الخدمات الشخصية الاخرى غير المصنفة فى مواضع اخرى</field>
+    </record>
+    <record id="9700" model="account.tax.activity.code">
+      <field name="code">9700</field>
+      <field name="name">Home employment activities</field>
+      <field name="arabic_name">انشطة توظيف العمالة المنزلية</field>
+    </record>
+    <record id="9810" model="account.tax.activity.code">
+      <field name="code">9810</field>
+      <field name="name">Activities of producing unearthed products and services for home appliances for personal use</field>
+      <field name="arabic_name">انشطة انتاج المنتجات والخدمات غير المتميزة الخاصة بالاجهزة المنزلية للاستخدام الشخصى</field>
+    </record>
+    <record id="9820" model="account.tax.activity.code">
+      <field name="code">9820</field>
+      <field name="name">Activities of producing unearthed products and services for home appliances for personal use</field>
+      <field name="arabic_name">انشطة انتاج المنتجات والخدمات غير المتميزة الخاصة بالاجهزة المنزلية للاستخدام الشخصى</field>
+    </record>
+    <record id="9900" model="account.tax.activity.code">
+      <field name="code">9900</field>
+      <field name="name">Activities of non-regional organizations and bodies</field>
+      <field name="arabic_name">انشطة المنظمات والهيئات غير الاقليمية</field>
+    </record>
+  </data>
+</odoo>

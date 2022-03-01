@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<data noupdate="1">
+    <!-- 1 -->
+    <record id ="T11" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_name">Export</field>
+        <field name="subtype_arabic_name">تصدير للخارج</field>
+        <field name="subtype_code">V001</field>
+        <field name="active">False</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 2 -->
+    <record id ="T12" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V002</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Export to free areas and other areas</field>
+        <field name="subtype_arabic_name">تصدير مناطق حرة وأخرى</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 3 -->
+    <record id ="T13" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V003</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Exempted good or service</field>
+        <field name="subtype_arabic_name">سلعة أو خدمة معفاة</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 4 -->
+    <record id ="T14" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V004</field>
+        <field name="active">False</field>
+        <field name="subtype_name">A non-taxable good or service</field>
+        <field name="subtype_arabic_name">سلعة أو خدمة غير خاضعة للضريبة</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 5 -->
+    <record id ="T15" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V005</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Exemptions for diplomats, consulates and embassies</field>
+        <field name="subtype_arabic_name">إعفاءات دبلوماسين والقنصليات والسفارات</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 6 -->
+    <record id ="T16" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V006</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Defence and National security Exemptions</field>
+        <field name="subtype_arabic_name">إعفاءات الدفاع والأمن القومى</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 7 -->
+    <record id ="T17" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V007</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Agreements exemptions</field>
+        <field name="subtype_arabic_name">إعفاءات اتفاقيات</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 8 -->
+    <record id ="T18" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V008</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Special Exemptios and other reasons</field>
+        <field name="subtype_arabic_name">إعفاءات خاصة و أخرى</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 9 -->
+    <record id ="T19" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V009</field>
+        <field name="active">False</field>
+        <field name="subtype_name">General Item sales</field>
+        <field name="subtype_arabic_name">سلع عامة</field>
+        <field name="amount">14</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <!-- 10 -->
+    <record id ="T110" model ="account.tax">
+        <field name="code">T1</field>
+        <field name="name">Value added tax</field>
+        <field name="arabic_name">ضريبه القيمه المضافه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">V010</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Other Rates</field>
+        <field name="subtype_arabic_name">نسب ضريبة أخرى</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T21" model ="account.tax">
+        <field name="code">T2</field>
+        <field name="name">Table tax (percentage)</field>
+        <field name="arabic_name">ضريبه الجدول (نسبيه)</field>
+        <field name="subtype_code">Tbl01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Table tax (percentage)</field>
+        <field name="subtype_arabic_name">ضريبه الجدول (نسبيه)</field>
+        <field name="tax_type">taxable</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T31" model ="account.tax">
+        <field name="code">T3</field>
+        <field name="name">Table tax (Fixed Amount)</field>
+        <field name="arabic_name">ضريبه الجدول (قطعيه)</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">Tbl02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Table tax (Fixed Amount)</field>
+        <field name="subtype_arabic_name">ضريبه الجدول (النوعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T41" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W001</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Contracting</field>
+        <field name="subtype_arabic_name">المقاولات</field>
+        <field name="country_id" ref="base.eg"/>
+        <field name="amount">-1</field>
+    </record>
+        <record id ="T42" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W002</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Supplies</field>
+        <field name="subtype_arabic_name">التوريدات</field>
+        <field name="amount">-1</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T43" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W003</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Purachases</field>
+        <field name="subtype_arabic_name">المشتريات</field>
+        <field name="amount">-1</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T44" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W004</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Services</field>
+        <field name="subtype_arabic_name">الخدمات</field>
+        <field name="amount">-3</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T45" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W005</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Sumspaid by the cooperative societies for car transportation to their members</field>
+        <field name="subtype_arabic_name">المبالغالتي تدفعها الجميعات التعاونية للنقل بالسيارات لاعضائها</field>
+        <field name="amount">-1</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T46" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W006</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Commissionagency &amp; brokerage</field>
+        <field name="subtype_arabic_name">الوكالةبالعمولة والسمسرة</field>
+        <field name="amount">-5</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T47" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W007</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Discounts&amp; grants &amp; additional exceptional incentives granted by smoke &amp;cement companies</field>
+        <field name="subtype_arabic_name">الخصوماتوالمنح والحوافز الاستثنائية ةالاضافية التي تمنحها شركات الدخان والاسمنت </field>
+        <field name="amount">-5</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T48" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W008</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Alldiscounts &amp; grants &amp; commissions granted by petroleum &amp;telecommunications &amp; other companies</field>
+        <field name="subtype_arabic_name">جميعالخصومات والمنح والعمولات  التيتمنحها  شركات البترول والاتصالات ...وغيرها من الشركات المخاطبة بنظام الخصم</field>
+        <field name="amount">-2</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T49" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W009</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Supporting export subsidies</field>
+        <field name="subtype_arabic_name">مساندة دعم الصادرات التي يمنحها صندوق تنمية الصادرات </field>
+        <field name="amount">-2</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T410" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W010</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Professional fees</field>
+        <field name="subtype_arabic_name">اتعاب مهنية</field>
+        <field name="amount">-5</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T411" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W011</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Commission &amp; brokerage _A_57</field>
+        <field name="subtype_arabic_name">العمولة والسمسرة _م_57</field>
+        <field name="amount">-5</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T412" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W012</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Hospitals collecting from doctors</field>
+        <field name="subtype_arabic_name">تحصيل المستشفيات من الاطباء</field>
+        <field name="amount">-3</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T413" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W013</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Royalties</field>
+        <field name="subtype_arabic_name">الاتاوات</field>
+        <field name="amount">-5</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T414" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W014</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Customs clearance</field>
+        <field name="subtype_arabic_name">تخليص جمركي </field>
+        <field name="amount">-5</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T415" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W015</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Exemption</field>
+        <field name="subtype_arabic_name">أعفاء</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T416" model ="account.tax">
+        <field name="code">T4</field>
+        <field name="name">Withholding tax (WHT)</field>
+        <field name="arabic_name">الخصم تحت حساب الضريبه</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">W016</field>
+        <field name="active">False</field>
+        <field name="subtype_name">advance payments</field>
+        <field name="subtype_arabic_name">دفعات مقدمه</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T51" model ="account.tax">
+        <field name="code">T5</field>
+        <field name="name">Stamping tax (percentage)</field>
+        <field name="arabic_name">ضريبه الدمغه (نسبيه)</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">ST01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Stamping tax (percentage)</field>
+        <field name="subtype_arabic_name">ضريبه الدمغه (نسبيه)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T61" model ="account.tax">
+        <field name="code">T6</field>
+        <field name="name">Stamping Tax (amount)</field>
+        <field name="arabic_name">ضريبه الدمغه (قطعيه بمقدار ثابت )</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">ST02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Stamping Tax (amount)</field>
+        <field name="subtype_arabic_name">ضريبه الدمغه (قطعيه بمقدار ثابت)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T71" model ="account.tax">
+        <field name="code">T7</field>
+        <field name="name">Entertainment tax</field>
+        <field name="arabic_name">ضريبة الملاهى</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">Ent01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Entertainment tax (rate)</field>
+        <field name="subtype_arabic_name">ضريبة الملاهى (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T72" model ="account.tax">
+        <field name="code">T7</field>
+        <field name="name">Entertainment tax</field>
+        <field name="arabic_name">ضريبة الملاهى</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">Ent02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Entertainment tax (amount)</field>
+        <field name="subtype_arabic_name">ضريبة الملاهى (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T81" model ="account.tax">
+        <field name="code">T8</field>
+        <field name="name">Resource development fee</field>
+        <field name="arabic_name">رسم تنميه الموارد</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">RD01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Resource development fee (rate)</field>
+        <field name="subtype_arabic_name">رسم تنميه الموارد (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T82" model ="account.tax">
+        <field name="code">T8</field>
+        <field name="name">Resource development fee</field>
+        <field name="arabic_name">رسم تنميه الموارد</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">RD02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Resource development fee (amount)</field>
+        <field name="subtype_arabic_name">رسم تنميه الموارد (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T91" model ="account.tax">
+        <field name="code">T9</field>
+        <field name="name">Table tax (percentage)</field>
+        <field name="arabic_name">رسم خدمة</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">SC01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Service charges (rate)</field>
+        <field name="subtype_arabic_name">رسم خدمة (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T92" model ="account.tax">
+        <field name="code">T9</field>
+        <field name="name">Table tax (percentage)</field>
+        <field name="arabic_name">رسم خدمة</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">SC02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Service charges (amount)</field>
+        <field name="subtype_arabic_name">رسم خدمة (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T101" model ="account.tax">
+        <field name="code">T10</field>
+        <field name="name">Municipality Fees</field>
+        <field name="arabic_name">رسم المحليات</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">Mn01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Municipality Fees (rate)</field>
+        <field name="subtype_arabic_name">رسم المحليات (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T102" model ="account.tax">
+        <field name="code">T10</field>
+        <field name="name">Municipality Fees</field>
+        <field name="arabic_name">رسم المحليات</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">Mn02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Municipality Fees (amount)</field>
+        <field name="subtype_arabic_name">رسم المحليات (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T111" model ="account.tax">
+        <field name="code">T11</field>
+        <field name="name">Medical insurance fee</field>
+        <field name="arabic_name">رسم التامين الصحى</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">MI01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Medical insurance fee (rate)</field>
+        <field name="subtype_arabic_name">رسم التامين الصحى (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+     <record id ="T112" model ="account.tax">
+        <field name="code">T11</field>
+        <field name="name">Medical insurance fee</field>
+        <field name="arabic_name">رسم التامين الصحى</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">MI02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Medical insurance fee (amount)</field>
+        <field name="subtype_arabic_name">رسم التامين الصحى (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T121" model ="account.tax">
+        <field name="code">T12</field>
+        <field name="name">Other fees</field>
+        <field name="arabic_name">رسوم أخري</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">OF01</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Other fees (rate)</field>
+        <field name="subtype_arabic_name">رسوم أخرى (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T122" model ="account.tax">
+        <field name="code">T12</field>
+        <field name="name">Other fees</field>
+        <field name="arabic_name">رسوم أخري</field>
+        <field name="tax_type">taxable</field>
+        <field name="subtype_code">OF02</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Other fees (amount)</field>
+        <field name="subtype_arabic_name">رسوم أخرى (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T131" model ="account.tax">
+        <field name="code">T13</field>
+        <field name="name">Stamping tax (percentage)</field>
+        <field name="arabic_name">ضريبه الدمغه (نسبيه)</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">ST03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Stamping tax (percentage)</field>
+        <field name="subtype_arabic_name">ضريبه الدمغه (نسبيه)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T141" model ="account.tax">
+        <field name="code">T14</field>
+        <field name="name">Stamping Tax (amount)</field>
+        <field name="arabic_name">ضريبه الدمغه (قطعيه بمقدار ثابت )</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">Ent03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Entertainment tax (rate)</field>
+        <field name="subtype_arabic_name">ضريبة الملاهى (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T151" model ="account.tax">
+        <field name="code">T15</field>
+        <field name="name">Entertainment tax</field>
+        <field name="arabic_name">ضريبة الملاهى</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">Ent03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Entertainment tax (rate)</field>
+        <field name="subtype_arabic_name">ضريبة الملاهى (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+     <record id ="T152" model ="account.tax">
+        <field name="code">T15</field>
+        <field name="name">Entertainment tax</field>
+        <field name="arabic_name">ضريبة الملاهى</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">Ent04</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Entertainment tax (amount)</field>
+        <field name="subtype_arabic_name">ضريبة الملاهى (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T161" model ="account.tax">
+        <field name="code">T16</field>
+        <field name="name">Resource development fee</field>
+        <field name="arabic_name">رسم تنميه الموارد</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">RD03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Resource development fee (rate)</field>
+        <field name="subtype_arabic_name">رسم تنميه الموارد (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T162" model ="account.tax">
+        <field name="code">T16</field>
+        <field name="name">Resource development fee</field>
+        <field name="arabic_name">رسم تنميه الموارد</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">RD04</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Resource development fee (amount)</field>
+        <field name="subtype_arabic_name">رسم تنميه الموارد (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T171" model ="account.tax">
+        <field name="code">T17</field>
+        <field name="name">Table tax (percentage)</field>
+        <field name="arabic_name">رسم خدمة</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">SC03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Service charges (rate)</field>
+        <field name="subtype_arabic_name">رسم خدمة (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T172" model ="account.tax">
+        <field name="code">T17</field>
+        <field name="name">Table tax (percentage)</field>
+        <field name="arabic_name">رسم خدمة</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">SC04</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Service charges (amount)</field>
+        <field name="subtype_arabic_name">رسم خدمة (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T181" model ="account.tax">
+        <field name="code">T18</field>
+        <field name="name">Municipality Fees</field>
+        <field name="arabic_name">رسم المحليات</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">Mn03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Municipality Fees (rate)</field>
+        <field name="subtype_arabic_name">رسم المحليات (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T182" model ="account.tax">
+        <field name="code">T18</field>
+        <field name="name">Municipality Fees</field>
+        <field name="arabic_name">رسم المحليات</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">Mn04</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Municipality Fees (amount)</field>
+        <field name="subtype_arabic_name">رسم المحليات (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T191" model ="account.tax">
+        <field name="code">T19</field>
+        <field name="name">Medical insurance fee</field>
+        <field name="arabic_name">رسم التامين الصحى</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">MI03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Medical insurance fee (rate)</field>
+        <field name="subtype_arabic_name">رسم التامين الصحى (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T192" model ="account.tax">
+        <field name="code">T19</field>
+        <field name="name">Medical insurance fee</field>
+        <field name="arabic_name">رسم التامين الصحى</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">MI04</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Medical insurance fee (amount)</field>
+        <field name="subtype_arabic_name">رسم التامين الصحى (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    <record id ="T201" model ="account.tax">
+        <field name="code">T20</field>
+        <field name="name">Other fees</field>
+        <field name="arabic_name">رسوم أخرى</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">OF03</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Other fees (rate)</field>
+        <field name="subtype_arabic_name">رسوم أخرى (نسبة)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+        <record id ="T202" model ="account.tax">
+        <field name="code">T20</field>
+        <field name="name">Other fees</field>
+        <field name="arabic_name">رسوم أخرى</field>
+        <field name="tax_type">non_taxable</field>
+        <field name="subtype_code">OF04</field>
+        <field name="active">False</field>
+        <field name="subtype_name">Other fees (amount)</field>
+        <field name="subtype_arabic_name">رسوم أخرى (قطعية)</field>
+        <field name="country_id" ref="base.eg"/>
+    </record>
+    </data>
+</odoo>

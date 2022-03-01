@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_cancel_einvoice_wizard_view_form" model="ir.ui.view">
+        <field name="name">yds.einvoice.cancel.wizard.view.form</field>
+        <field name="model">yds.einvoice.cancel.wizard</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                <group>
+                    <field name="reason" string="Reason"/>
+                
+                </group>
+                </sheet>
+                <footer>
+                    <button string="Cancel Document" name="cancel_einvoice" type="object"/>
+                    <button string="Back" class="oe_highlight" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<data noupdate="1">
+        <record forcecreate="True" id="uom.product_uom_kgm" model="uom.uom">
+            <field name="category_id" ref="uom.product_uom_categ_kgm"/>
+            <field name="name">kg</field>
+            <field name="code">KGM</field>
+            <field name="factor" eval="1"/>
+            <field name="uom_type">reference</field>
+        </record>
+
+         <record forcecreate="True" id="uom.product_uom_unit" model="uom.uom">
+        <field name="category_id" ref="uom.product_uom_categ_unit"/>
+        <field name="name">Units</field>
+        <field name="code">EA</field>
+        <field name="factor" eval="1.0"/>
+        <field name="uom_type">reference</field>
+    </record>
+    </data>
+
+</odoo>

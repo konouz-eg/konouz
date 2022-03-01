@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="einvoice_ribbon" name="ribbon styles" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/e-invoice/static/src/css/yds_e-invoice.css" />
+            <script type="text/javascript" src="/e-invoice/static/src/js/yds_sync_einvoice.js" />
+        </xpath>
+    </template>
+</odoo>
